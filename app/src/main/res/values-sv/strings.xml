@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="google_play_title" tools:keep="@string/google_play_title">Transportr - Kollektivtrafik med öppen källkod</string>
+  <string name="google_play_short_desc" tools:keep="@string/google_play_short_desc">Gratis kollektivtrafikassistent utan annonser eller spårning</string>
+  <string name="google_play_full_desc" tools:keep="@string/google_play_full_desc" tools:ignore="StringFormatInvalid"><![CDATA[
+Transportr är en ideell app som utvecklats av personer runt om i världen på fritiden.
+De vill göra användningen av kollektivtrafiken så enkel som möjligt för alla.
+
+Denna app använder data från olika lokala kollektivtrafikbyråer
+och ger ett enhetligt gränssnitt för dem.
+Det kan inte verifiera att uppgifterna är korrekta
+och därför <i>erbjuder inga garantier</i> för den visade informationen.
+Använd på egen risk.
+
+<b>🛣️ Reserutt</b>. Säg bara till Transportr vart du vill åka!
+Det kommer att hitta de bästa anslutningarna för dig, råder dig var du ska byta bussar,
+och även ger dig en beräknad ankomsttid.
+
+<b>⏱️ Live avgångar</b>. Visar kommande avgångar från alla stationer.
+I  områden som <i>stöds</i> kommer realtidsförseningar också att visas.
+
+<b>🗽 Fri programvara</b>. Källkoden för Transportr är 100% öppen.
+Du kan fritt använda, studera, dela och förbättra den.
+Denna app är bara så bra som <i>du</i> gör den.
+Du kan även lägga till din stad själv, om den inte redan stöds.
+
+<b>🛰️ Hittar din position.</b> Transportr använder GPS-satellitnavigering
+för att hålla reda på din nuvarande position - så att du aldrig går vilse.
+Du hittar närliggande stationer för att starta en ny resa
+och sedan se hur långt längs resan du är.
+
+<b>🌟 Kommer ihåg favoritplatser.</b> För att få dig där du behöver gå snabbare,
+Transportr sparar ofta använda platser och resor.
+På så sätt behöver du inte skriva dem om och om igen.
+
+<b>🚫 Inga annonser, ingen spårning</b>. Den här appen visar inte annonser
+eller irriterande meddelanden.
+Det använder inte heller spårningsverktyg som Google Analytics för att spionera på dig.
+
+<b>🗺️ Vackra kartor</b>. Visar stationer eller hela resan på en karta
+och vet alltid var du inte ska missa var du ska gå av bussen.
+]]></string>
+  <string name="drawer_settings">Inställningar</string>
+  <string name="drawer_changelog">Ändringslogg</string>
+  <string name="drawer_about">Om</string>
+  <string name="drawer_contributors">Bidragsgivare</string>
+  <string name="drawer_report_issue">Rapportera problem</string>
+  <string name="action_fav_trip">Märk resan som favorit</string>
+  <string name="action_unfav_trip">Avmärk resan som favorit</string>
+  <string name="action_switch_locations">Växla Från och Till</string>
+  <string name="trip_dep">Avgång</string>
+  <string name="trip_arr">Ankomst</string>
+  <string name="action_refresh">Uppdatera</string>
+  <string name="action_navigation_expand">Visa Via</string>
+  <string name="action_choose_products">Transportmedel</string>
+  <string name="action_share">Dela</string>
+  <string name="action_trip_calendar">Lägg till i kalender</string>
+  <string name="action_trip_delete">Ta bort resan</string>
+  <string name="action_show_on_external_map">Visa på extern karta</string>
+  <string name="action_copy">Kopiera</string>
+  <string name="directions">Vägbeskrivningar</string>
+  <string name="directions_search">Sök vägbeskrivningar</string>
+  <string name="drawer_departures">Avgångar</string>
+  <string name="tab_about">Om</string>
+  <string name="tab_libraries">Bibliotek</string>
+  <string name="about_description">Transportr är en kollektivtrafikshjälpmedel som utvecklats av personer runt om i världen för att göra användning av kollektivtrafik så enkelt som möjligt var du än befinner dig.</string>
+  <string name="about_warning_title">Varning</string>
+  <string name="about_warning_text">Det finns ingen garanti för att uppgifterna (externt tillhandahållna) är korrekta. Använd denna app endast på egen risk.</string>
+  <string name="about_contributions">Denna app är fri programvara, så att du fritt kan använda, studera, dela och förbättra den. Bidrag uppmuntras och uppskattas. Om du vill bidra, besök webbplatsen för mer information.</string>
+  <string name="about_visit_website">Besök webbplatsen</string>
+  <string name="map_attribution_improve">Förbättra denna karta</string>
+  <string name="open_navigation_drawer">Öppna navigeringsritaren</string>
+  <string name="from">Från</string>
+  <string name="to">Till</string>
+  <string name="via">Via</string>
+  <string name="search_hint">Sök här</string>
+  <string name="from_here">Från här</string>
+  <string name="to_here">Till här</string>
+  <string name="clear_location">Rensa platsen</string>
+  <string name="walk">Gå</string>
+  <string name="alpha">alfa</string>
+  <string name="beta">beta</string>
+  <string name="network">Nätverk</string>
+  <string name="pick_network_activity">Välj område</string>
+  <string name="pick_network_first_run">Välkommen till Transportr!\n\nVänligen välj transportnätverket från ditt område för att fortsätta. Du kan ändra detta när som helst.</string>
+  <string name="stations_searching_position">Söker efter aktuell position…</string>
+  <string name="drawer_nearby_stations">Närliggande stationer</string>
+  <string name="find_nearby_stations">Hitta närliggande stationer</string>
+  <string name="find_departures">Hitta avgångar</string>
+  <string name="share_trip_via">Dela resan via…</string>
+  <string name="show_location_in">Visa plats i...</string>
+  <string name="more">Mer</string>
+  <!--Shows a short(!) representation of how long you need to walk, e.g. "for 5 min"-->
+  <string name="for_x_min">för %d min</string>
+  <string name="change_time">Ändra tiden</string>
+  <string name="now">Nu</string>
+  <string name="now_small">nu</string>
+  <string name="yesterday">Igår</string>
+  <string name="today">Idag</string>
+  <string name="tomorrow">Imorgon</string>
+  <string name="in_x_minutes">om %dmin</string>
+  <string name="x_minutes_ago">%dmin sedan</string>
+  <string name="total_time">Total tid: %s</string>
+  <string name="time_picker_previous_day">Föregående dag</string>
+  <string name="time_picker_next_day">Nästa dag</string>
+  <string name="ok">Ok</string>
+  <string name="cancel">Avbryt</string>
+  <string name="pref_transport_network">Transportsystemet</string>
+  <string name="pref_display">Vida</string>
+  <string name="pref_theme_title">Tema</string>
+  <string name="pref_theme_light">Ljust</string>
+  <string name="pref_theme_dark">Mörkt</string>
+  <string name="pref_theme_auto_battery">Ställ in av batterispararen</string>
+  <string name="pref_theme_auto_system">Systemstandard</string>
+  <string name="pref_language_title">Språk</string>
+  <string name="pref_directions_routing">Vägbeskrivning och resrutt</string>
+  <string name="pref_optimize">Optimera för</string>
+  <string name="pref_optimize_least_duration">Minsta varaktighet</string>
+  <string name="pref_optimize_least_changes">Minsta byten</string>
+  <string name="pref_optimize_least_walking">Minsta promenad</string>
+  <string name="pref_walk_speed">Gånghastighet</string>
+  <string name="pref_walk_speed_slow">Långsam</string>
+  <string name="pref_walk_speed_normal">Normal</string>
+  <string name="pref_walk_speed_fast">Snabb</string>
+  <string name="pref_show_when_locked_title">Visa resa även när skärmen är låst</string>
+  <string name="pref_show_when_locked_summary">Visa över låsskärmen</string>
+  <string name="error">Fel</string>
+  <string name="error_no_internet">Internetanslutning krävs. Se till att din tillgång till internet fungerar.</string>
+  <string name="error_connection_failure">Anslutningen misslyckades. Försök igen.</string>
+  <string name="error_trip_refresh_failed">Det gick inte att uppdatera data för aktuell resa.</string>
+  <string name="error_geo_intent">Kunde inte öppna extern plats</string>
+  <string name="error_find_nearby_stations">Kunde inte hitta närliggande stationer</string>
+  <string name="error_departures">Kunde inte hitta några avgångar</string>
+  <string name="error_no_calendar">Ingen kalender installerad :(</string>
+  <string name="error_no_map">Ingen extern karta installerad :(</string>
+  <string name="trip_error_ambiguous">Kunde inte hitta platsen. Försök söka med olika platser.</string>
+  <string name="trip_error_too_close">\"Från\" och \"till\" platserna är för nära varandra.</string>
+  <string name="trip_error_unknown_from">Kunde inte hitta \"från\" platsen. Försök med en till.</string>
+  <string name="trip_error_unknown_via">Kunde inte hitta \"via\" platsen. Försök med en till.</string>
+  <string name="trip_error_unknown_to">Kunde inte hitta \"till\" platsen. Försök med en till.</string>
+  <string name="trip_error_unresolvable_address">Det gick inte att hitta den angivna adressen. Försök med en till.</string>
+  <string name="trip_error_no_trips">Inga anslutningar kunde hittas :(</string>
+  <string name="trip_error_invalid_date">Sökdatumet stöds för närvarande inte av dataleverantören. Försök med ett annat datum.</string>
+  <string name="trip_error_service_down">Dataleverantören är för närvarande nere : (\Vänligen försök igen senare.</string>
+  <string name="trip_error_pte">Om du vill rapportera detta fel, vänligen rapportera det till %1$s direkt.</string>
+  <string name="trip_issue">Det kan vara ett problem med den här anslutningen.</string>
+  <string name="trip_not_travelable">Omöjligt eller inställt</string>
+  <string name="try_again">Försök igen</string>
+  <!--This string shows the number of meters one has to walk. Please keep the translation short.-->
+  <string name="meter">%d m</string>
+  <plurals name="stops">
+    <item quantity="one">%d stopp</item>
+    <item quantity="other">%d stopp</item>
+  </plurals>
+  <!--This is the platform or position where a train will depart or arrive. Please keep it short as it will be shown after the station name.-->
+  <string name="platform">Plattform %s</string>
+  <string name="system_default">Systemstandard</string>
+  <string name="trip_share_date">Datum: %s</string>
+  <string name="times_include_delays">(Obs: Tiderna kan inkludera rapporterade förseningar)</string>
+  <string name="created_by">Skapad av %s</string>
+  <string name="home">Hem</string>
+  <string name="home_dialog_title">Ange hem</string>
+  <string name="widget_name_quickhome">Visa mig vägen hem</string>
+  <string name="work">Arbete</string>
+  <string name="work_hint">Ange arbetsplats</string>
+  <string name="widget_name_quickwork">Visa mig vägen till arbete</string>
+  <string name="tap_to_set">Tryck för att ställa in</string>
+  <string name="widget_name_favorites">%1$s till %2$s</string>
+  <string name="widget_name_favorites_via">%1$s till %2$s (via %3$s)</string>
+  <string name="action_set_locations">Redigera sökning</string>
+  <string name="action_swap_locations">Sök returresa</string>
+  <string name="action_change">Ändra</string>
+  <string name="action_add_shortcut">Lägg till Launcher-genväg</string>
+  <string name="location_gps">Använd aktuell position</string>
+  <string name="warning_no_gps_fix">Kunde inte hitta din position, ännu.</string>
+  <string name="permission_denied_gps">Du tillät inte åtkomst till din plats, så den här funktionen fungerar inte. Vänligen ge tillstånd i appinställningarna.</string>
+  <string name="warning_gps_off">Platsen är avstängd. Vänligen slå på den i inställningarna.</string>
+  <string name="onboarding_location_title">Dra upp</string>
+  <string name="onboarding_location_message">Fler funktioner gömmer sig nedan</string>
+  <string name="select_products">Välj transportmedel</string>
+  <string name="product_high_speed_train">Snabbtåg</string>
+  <string name="product_regional_train">Regionaltåg</string>
+  <string name="product_suburban_train">Pendeltåg</string>
+  <string name="product_subway">Tunnelbana</string>
+  <string name="product_tram">Spårvagn</string>
+  <string name="product_bus">Buss</string>
+  <string name="product_ferry">Färja</string>
+  <string name="product_cablecar">Linbana</string>
+  <string name="product_on_demand">På begäran</string>
+  <!--ckChangeLog-->
+  <string name="changelog_full_title" tools:ignore="UnusedResources">Ändringslogg</string>
+  <string name="changelog_title" tools:ignore="UnusedResources">Vad är nytt</string>
+  <string name="changelog_show_full" tools:ignore="UnusedResources">Mer…</string>
+  <string name="np_continent_europe">Europa</string>
+  <string name="np_continent_africa">Afrika</string>
+  <string name="np_continent_north_america">Nordamerika</string>
+  <string name="np_continent_central_america">Centralamerika</string>
+  <string name="np_continent_south_america">Sydamerika</string>
+  <string name="np_continent_asia">Asien</string>
+  <string name="np_continent_oceania">Oceanien</string>
+  <string name="np_region_australia">Australien</string>
+  <string name="np_desc_australia">Melbourne, Sydney, Brisbane, Perth, Adelaide, Hobart, Launceston, Burnie</string>
+  <string name="np_desc_sydney">Australien, Nya Sydwales, Sydney</string>
+  <string name="np_region_pt">Portugal</string>
+  <string name="np_name_pt">Portugal</string>
+  <string name="np_desc_pt">Lissabon</string>
+  <string name="np_desc_pt_networks">Buss, Tåg, Bergbanan, Färja, Tunnelbana</string>
+  <string name="np_region_austria">Österrike</string>
+  <string name="np_desc_ivb">Innsbruck</string>
+  <string name="np_desc_linz">Oberösterreich, Linz</string>
+  <string name="np_desc_oebb">Österrike</string>
+  <string name="np_desc_stv">Steiermark, Graz, Marburg, Maribor</string>
+  <string name="np_desc_vor">Niederösterreich, Burgenland, Wien</string>
+  <string name="np_desc_vvt">Tyrolen</string>
+  <string name="np_desc_wien">Wien</string>
+  <string name="np_region_belgium">Belgien</string>
+  <string name="np_desc_sncb">Kollektivtrafik i Belgien</string>
+  <string name="np_name_br">Brasilien</string>
+  <string name="np_desc_br">São Paulo, Rio de Janeiro och Belo Horizonte och Porto Alegre</string>
+  <string name="np_name_br_floripa">Florianópolis</string>
+  <string name="np_desc_br_floripa">Många busslinjer, inga Executivos</string>
+  <string name="np_region_canada">Kanada</string>
+  <string name="np_name_ontario">Ontario</string>
+  <string name="np_name_quebec">Quebec</string>
+  <string name="np_desc_quebec">Deux-Montagnes, Laval, L\'Assomption, Outaouais, Sud-Ouest, Quebec, Haut-Saint-Laurent, Lanaudière, La Presqu\'Île, Laurentides, Montreal, Les Moulins, Vallée du Richelieu, Chambly-Richelieu-Carignan, Roussillon, Sorel-Varennes, Le Richelain, Sherbrooke, Sainte-Julie</string>
+  <string name="np_name_britishcolumbia">British Columbia</string>
+  <string name="np_desc_britishcolumbia">Kollektivtrafik i British Columbia</string>
+  <string name="np_desc_britishcolumbia_networks">Translink (Metro Vancouver) och British Columbia Transit (resten av British Columbia)</string>
+  <string name="np_region_denmark">Danmark</string>
+  <string name="np_desc_dsb">Danmark, Köpenhamn</string>
+  <string name="np_name_rt">Europa</string>
+  <string name="np_desc_rt">Endast fjärrtåg</string>
+  <string name="np_desc_rt_networks">Railteam alliansen</string>
+  <string name="np_region_finland">Finland</string>
+  <string name="np_desc_fi">Helsingfors, Åbo, Tammerfors, Jyväskylä, Uleåborg</string>
+  <string name="np_region_france">Frankrike</string>
+  <string name="np_name_francenortheast">Nordöstra Frankrike</string>
+  <string name="np_desc_francenortheast">Strasbourg, Paris, Lille, Nancy</string>
+  <string name="np_name_francenorthwest">Nordvästra Frankrike</string>
+  <string name="np_desc_francenorthwest">Bretagne, Pays de la Loire, centrum, Basse-Normandie, Haute-Normandie</string>
+  <string name="np_name_frenchsoutheast">Sydöstra Frankrike</string>
+  <string name="np_desc_frenchsoutheast">Provence-Alpes-Côte d\'Azur, Rhône-Alpes, Languedoc-Roussillon, Auvergne, Korsika, Lyon</string>
+  <string name="np_name_frenchsouthwest">Sydvästra Frankrike</string>
+  <string name="np_desc_frenchsouthwest">Poitou-Charentes, Limousin, Aquitaine, Midi-Pyrénées, Bordeaux, Toulouse</string>
+  <string name="np_name_paris">Paris</string>
+  <string name="np_desc_paris">Ile-de-France, Frankrike, Paris</string>
+  <string name="np_region_gb">Storbritannien</string>
+  <string name="np_desc_mersey">Liverpools stadsregion</string>
+  <string name="np_desc_tlem">Greater London, Birmingham, Derbyshire, Leicestershire, Rutland, Northamptonshire, Nottinghamshire, Lincolnshire, Berkshire, Buckinghamshire, East Sussex, Hampshire, Isle of Wight, Kent, Oxfordshire, Surrey, West Sussex, Essex, Hertfordshire, England, Cambridgeshire, Norfolk, Suffolk, Somerset, Gloucestershire, Wiltshire, Dorset, Devon och Cornwall, West Devon, Stowford, Eastleigh, Swindon, Gloucester, Plymouth, Torbay, Bournemouth, Poole</string>
+  <string name="np_desc_tlwm" tools:keep="@string/np_desc_tlwm">Birmingham</string>
+  <string name="np_region_germany">Tyskland</string>
+  <string name="np_desc_avv">Augsburg</string>
+  <string name="np_desc_bayern">Bayern</string>
+  <string name="np_desc_bsvag">Braunschweig, Wolfsburg</string>
+  <string name="np_desc_bvg">Berlin</string>
+  <string name="np_desc_db">Största delen av Tyskland</string>
+  <string name="np_desc_db2">Långdistansförbindelser i Europa</string>
+  <string name="np_desc_ding">Baden-Württemberg, Ulm, Neu-Ulm</string>
+  <string name="np_desc_gvh">Niedersachsen, Hannover, Hamburg, Bremerhaven</string>
+  <string name="np_desc_hvv" tools:keep="@string/np_desc_hvv">Hamburg</string>
+  <string name="np_desc_invg">Ingolstadt</string>
+  <string name="np_desc_kvv">Baden-Württemberg, Karlsruhe</string>
+  <string name="np_desc_mvg">Märkischer Kreis, Lüdenscheid</string>
+  <string name="np_desc_mvv">Bayern, München</string>
+  <string name="np_desc_nasa">Sachsen, Leipzig, Sachsen-Anhalt, Magdeburg, Halle</string>
+  <string name="np_desc_nvbw">Baden-Württemberg, Konstanz, Basel, Basel-Stadt, Reutlingen, Rottweil, Tübingen, Sigmaringen</string>
+  <string name="np_desc_nvv">Hesse, Frankfurt am Main, Kassel</string>
+  <string name="np_desc_rsag" tools:keep="@string/np_desc_rsag">Rostock</string>
+  <string name="np_desc_vbb">Brandenburg, Berlin</string>
+  <string name="np_desc_vbn" tools:keep="@string/np_desc_vbn">Niedersachsen, Bremen, Bremerhaven, Oldenburg (Oldenburg), Osnabrück</string>
+  <string name="np_desc_vgn">Nürnberg, Fürth, Erlangen, Bayreuth, Bamberg, Schwabach</string>
+  <string name="np_desc_vgs">Saarland, Saarbrücken</string>
+  <string name="np_desc_vmv">Mecklenburg-Vorpommern, Schwerin</string>
+  <string name="np_desc_vrn">Baden-Württemberg, Rheinland-Pfalz, Mannheim, Mainz, Trier</string>
+  <string name="np_desc_vrr">Nordrhein-Westfalen, Köln, Bonn, Essen, Dortmund, Düsseldorf, Münster, Paderborn, Höxter</string>
+  <string name="np_desc_vrs">Köln, Bonn</string>
+  <string name="np_desc_vvm">Swabia, Mellersta Swabia, Krumbach, Günzburg, Memmingen</string>
+  <string name="np_desc_vvo">Sachsen, Dresden</string>
+  <string name="np_desc_vvs">Baden-Württemberg, Stuttgart</string>
+  <string name="np_desc_vvv">Vogtland, Plauen</string>
+  <string name="np_desc_vmt">Centrala Thüringen</string>
+  <string name="np_region_ireland">Irland</string>
+  <string name="np_desc_tfi">Irland, Dublin, Belfast</string>
+  <string name="np_region_israel" tools:keep="@string/np_region_israel">Israel</string>
+  <string name="np_desc_jet" tools:keep="@string/np_desc_jet">Israel, Jerusalem</string>
+  <string name="np_name_it">Italien</string>
+  <string name="np_desc_it">Rom, Milano, Turin, Venedig, Palermo, Trento</string>
+  <string name="np_region_liechtenstein">Liechtenstein</string>
+  <string name="np_name_vmobil">VVV</string>
+  <string name="np_desc_vmobil">Liechtenstein, Vorarlberg, Bregenz</string>
+  <string name="np_region_luxembourg">Luxemburg</string>
+  <string name="np_desc_lu">Luxemburg</string>
+  <string name="np_region_netherlands">Nederländerna</string>
+  <string name="np_desc_ns">Nederländerna, Amsterdam</string>
+  <string name="np_desc_negentwee">All kollektivtrafik i Nederländerna</string>
+  <string name="np_name_nz">Nya Zeeland</string>
+  <string name="np_desc_nz">Nya Zeeland, Wellington, Auckland</string>
+  <string name="np_region_poland">Polen</string>
+  <string name="np_name_spain">Spanien</string>
+  <string name="np_desc_spain">Madrid, Barcelona, Baskien, Valencia, Alicante, Mallorca, Menorca, Teneriffa, La Palma, Navarra</string>
+  <string name="np_name_hungary">Ungern</string>
+  <string name="np_desc_hungary">Budapest, Miskolc</string>
+  <string name="np_name_czechia">Tjeckien</string>
+  <string name="np_desc_czechia">Prag med flera</string>
+  <string name="np_region_sweden">Sverige</string>
+  <string name="np_desc_se">Sverige, Stockholm</string>
+  <string name="np_region_switzerland">Schweiz</string>
+  <!--SBB is german/international, CFF is french and FFS is italian! So this IS translatable.-->
+  <string name="np_name_sbb" translatable="true">SBB</string>
+  <string name="np_desc_sbb">Schweiz</string>
+  <string name="np_desc_vbl">Luzern</string>
+  <string name="np_desc_zvv">Zürich</string>
+  <string name="np_region_uae">Förenade Arabemiraten</string>
+  <string name="np_name_dub">Dubai</string>
+  <string name="np_desc_dub">Förenade Arabemiraten, Dubai</string>
+  <string name="np_region_usa">Förenta Staterna</string>
+  <string name="np_desc_rtachicago">Chicago</string>
+  <string name="np_desc_bart">San Francisco</string>
+  <string name="np_desc_cmta">Austin</string>
+  <string name="np_name_usny">New York och New Jersey Stater</string>
+  <string name="np_name_california">Kalifornien</string>
+  <string name="np_desc_california">Kollektivtrafik i Kalifornien (USA)</string>
+  <string name="np_name_oregon">Oregon</string>
+  <string name="np_desc_oregon">Global Transport i Oregon State (USA)</string>
+  <string name="np_name_costa_rica">Costa Rica</string>
+  <string name="np_name_ghana">Ghana</string>
+  <string name="np_desc_ghana">Accra</string>
+  <string name="np_name_nicaragua">Nicaragua</string>
+  <string name="np_desc_nicaragua">Stads-, landsbygds- och landsomfattande bussar som tillhandahålls av MapaNica.net och OpenStreetMap medarbetare</string>
+  <string name="maintainer">Underhållare</string>
+  <string name="contributors">Bidragsgivare</string>
+  <string name="translators">Översättare</string>
+  <string name="dutch">Holländska</string>
+  <string name="french">Franska</string>
+  <string name="german">Tyska</string>
+  <string name="italian">Italienska</string>
+  <string name="portuguese_br">Portugisiska (Brasilien)</string>
+  <string name="spanish">Spanska</string>
+  <string name="turkish">Turkiska</string>
+  <string name="norwegian_bokmal">Norska bokmål</string>
+  <string name="basque">Baskiska</string>
+  <string name="english">Engelska</string>
+  <string name="catalan">Katalansk</string>
+  <string name="polish">Polska</string>
+  <string name="tamil">Tamil</string>
+  <string name="esperanto">Esperanto</string>
+  <string name="czech">Tjeckiska</string>
+  <string name="hungarian">Ungerska</string>
+  <string name="japanese">Japanska</string>
+  <string name="russian">Ryska</string>
+  <string name="greek">Grekiska</string>
+  <string name="farsi">Persiska</string>
+  <string name="taiwanese">Kinesiska (Taiwan)</string>
+  <string name="swedish">Svenska</string>
+  <string name="ukrainian">Ukrainska</string>
+  <string name="danish">Dansk</string>
+</resources>

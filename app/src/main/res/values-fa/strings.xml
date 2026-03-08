@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="google_play_title" tools:keep="@string/google_play_title">Transportr - عبور و مرور عمومی متن باز</string>
+  <string name="google_play_short_desc" tools:keep="@string/google_play_short_desc">دستیار حمل و نقل عمومی رایگان بدون تبلیغات یا ردیابی</string>
+  <string name="google_play_full_desc" tools:keep="@string/google_play_full_desc" tools:ignore="StringFormatInvalid"><![CDATA[
+Transportr یک برنامه ناسودبر بوده که توسط افراد در سراسر جهان در اوقات فراغتشان توسعه داده شده است.
+آن ها قصد دارند تا استفاده از حمل و نقل عمومی را برای همگان به سادگی هر چه تمام تر کنند.
+
+این برنامه از داده های آژانس های حمل و نقل عمومی محلی استفاده میکند
+و یک رابط یکپارچه برای آن ایجاد میکند.
+درستی داده را نمیتواند تایید کند
+و بنابراین <i>هیچ گارانتی</i> برای داده نمایش داده شده نمی دهد.
+لطفا با در نظر گرفتن ریسک از جانب خودتان از آن استفاده کنید.
+
+<b>🛣️ مسیر سفر</b>. فقط به Transportr بگویید کجا میخواهید بروید!
+بهترین اتصال ها را برای شما پیدا میکند، به شما توصیه میکند کجا اتوبوس عوض کنید،
+و حتی به شما یک زمان تخمینی از موقع رسیدن می دهد.
+
+<b>⏱️ خروجی های لایو </b>. خروجی های همه ایستگاه ها و هر ایستگاه نمایش داده می شود.
+در ناحیه های <i>پشتیبانی شده</i>، میزان تاخیر حقیقی هم نشان داده میشود.
+
+<b>🗽آزادی نرم افزار</b>. سورس برنامه Transportr به صورت 100% کاملا باز می باشد.
+شما میتوانید به صورت آزاد از آن استفاده کرده، آن را مطالعه کنید، به اشتراک گذاشته و آن را بهبود ببخشید.
+این برنامه تنها به اندازه ای خوب است که<i>شما</i> آن را خوب میکنید.
+<b>🛰️ موقعیت شما را پیدا میکند.</b> Transportr از جهت یابی ماهواره ای جی پی اس استفاده میکند
+تا موقعیت فعلی شما را ردیابی کند - برای همین هیچوقت گم نخواهید شد.
+شما میتوانید ایستگاه نزدیک را برای شروع یک سفر جدید پیدا کنید
+و بعد ببینید چه مقدار از سفر را طی کرده اید.
+
+<b>🌟 مکان های موردعلاقه را به خاطر می سپارد. </b> برای اینکه به جایی که میخواهید برسید سریع تر برسید،
+Transportr مکان ها و سفر های انجام شده متداول را ذخیره میکند.
+بدین شکل شما نیاز نیست هربار آن ها را دوباره بنویسید.
+
+<b>🚫 هیچ تبلیغ، هیچ ردیابی وجود ندارد</b>. این برنامه تبلیغات 
+یا نوتیفکیشن های اعصاب خورد کن را نمایش نمیدهد.
+همچنین از ابزار های ردیابی مثل تجزیه و تحلیل ترافیک گوگل برای جاسوسی شما استفاده نمیکند.
+
+<b>🗺️ نقشه های زیبا </b>. ایستگاه ها یا تمام سفر شما را روی نقشه نمایش میدهد
+و همیشه می داند که در کجا هستید برای اینکه به شما بگوید تا کجا از اتوبوس پیاده شوید
+]]></string>
+  <string name="drawer_settings">تنظیمات</string>
+  <string name="drawer_changelog">تغییرات</string>
+  <string name="drawer_about">درباره</string>
+  <string name="drawer_contributors">مشارکت کنندگان</string>
+  <string name="drawer_report_issue">گزارش مشکل</string>
+  <string name="action_fav_trip">سفر را به عنوان مورد علاقه علامت بزن</string>
+  <string name="action_unfav_trip">علامت سفر به عنوان مورد علاقه را بردار</string>
+  <string name="action_switch_locations">جابجا کردن مبداء و مقصد</string>
+  <string name="trip_dep">حرکت</string>
+  <string name="trip_arr">ورود</string>
+  <string name="action_refresh">رفرش</string>
+  <string name="action_navigation_expand">نمایش بده از طریق</string>
+  <string name="action_choose_products">وسایل حمل و نقل</string>
+  <string name="action_share">به اشتراک گذاری</string>
+  <string name="action_trip_calendar">افزودن به تقویم</string>
+  <string name="action_trip_delete">حذف سفر</string>
+  <string name="action_show_on_external_map">نمایش روی نقشه خارجی</string>
+  <string name="action_copy">کپی</string>
+  <string name="directions">جهت ها</string>
+  <string name="directions_search">جستجو جهت ها</string>
+  <string name="drawer_departures">حرکت ها</string>
+  <string name="tab_about">درباره</string>
+  <string name="tab_libraries">کتابخانه ها</string>
+  <string name="about_description">Transportr یک همران حمل و نقل عمومی است که توسط افرادی در سرتاسر دنیا ایجاد شده تا حمل و نقل عمومی را تا جای ممکن در هرجایی که هستید آسان کند.</string>
+  <string name="about_warning_title">هشدار</string>
+  <string name="about_warning_text">هیچ گارانتی برای درسی داده ها ( داده های از بیرون تامین شده ) وجود ندارد. لطفا با در نظر گرفتن ریسک از این برنامه استفاده کنید.</string>
+  <string name="about_contributions">این برنامه یک نرم افزار آزاد می باشد، بنابراین شما میتوانید از آن به صورت رایگان استفاده کرده، آن را مطالعه کرده، به اشتراک گذاشته و آن را اصلاح کنید. مشارکت کردن در این برنامه مورد تشویق بوده و از آن استقبال می شود. اگر مایل به مشارکت هستید، برای اطلاعات بیشتر لطفا به صفحه اصلی بروید. </string>
+  <string name="about_visit_website">بازدید از وبسایت</string>
+  <string name="open_navigation_drawer">باز کردن کشوی مسیریابی</string>
+  <string name="from">مبداء</string>
+  <string name="to">مقصد</string>
+  <string name="via">از طریق</string>
+  <string name="search_hint">اینجا جستجو کنید</string>
+  <string name="from_here">از اینجا</string>
+  <string name="to_here">به اینجا</string>
+  <string name="clear_location">پاک کردن مکان</string>
+  <string name="walk">پیاده روی</string>
+  <string name="alpha">آلفا</string>
+  <string name="beta">بتا</string>
+  <string name="network">شبکه</string>
+  <string name="pick_network_activity">انتخاب ناحیه</string>
+  <string name="pick_network_first_run">به Transportr خوش آمدید!
+
+لطفا شبکه حمل و نقل مرتبط با ناحیه خود را انتخاب کنید. بعدا در هر زمانی میتوانید آن را تغییر دهید.</string>
+  <string name="stations_searching_position">در جستجوی مکان فعلی…</string>
+  <string name="drawer_nearby_stations">ایستگاه های نزدیک</string>
+  <string name="find_nearby_stations">ایستگاه های نزدیک را پیدا کن</string>
+  <string name="find_departures">یافتن حرکت ها</string>
+  <string name="share_trip_via">به اشتراک گذاری سفر از طریق…</string>
+  <string name="more">بیشتر</string>
+  <!--Shows a short(!) representation of how long you need to walk, e.g. "for 5 min"-->
+  <string name="for_x_min">برای %d دقیقه</string>
+  <string name="change_time">تغییر زمان</string>
+  <string name="now">الان</string>
+  <string name="now_small">الان</string>
+  <string name="yesterday">دیروز</string>
+  <string name="today">امروز</string>
+  <string name="tomorrow">فردا</string>
+  <string name="in_x_minutes">در %d دقیقه</string>
+  <string name="x_minutes_ago">%d دقیقه گذشته</string>
+  <string name="total_time">زمان کل: %s</string>
+  <string name="time_picker_previous_day">روز قبل</string>
+  <string name="time_picker_next_day">روز بعد</string>
+  <string name="ok">باشه</string>
+  <string name="cancel">لغو</string>
+  <string name="pref_transport_network">شبکه ترابری</string>
+  <string name="pref_display">نمایش</string>
+  <string name="pref_theme_title">زمینه</string>
+  <string name="pref_theme_light">روشن</string>
+  <string name="pref_theme_dark">تاریک</string>
+  <string name="pref_language_title">زبان</string>
+  <string name="pref_directions_routing">جهت ها و مسیر سفر</string>
+  <string name="pref_optimize">بهینه سازی برای </string>
+  <string name="pref_optimize_least_duration">کمترین مدت زمان</string>
+  <string name="pref_optimize_least_changes">کمترین تغییرات</string>
+  <string name="pref_optimize_least_walking">کمترین پیاده روی</string>
+  <string name="pref_walk_speed">سرعت پیاده روی</string>
+  <string name="pref_walk_speed_slow">آهسته</string>
+  <string name="pref_walk_speed_normal">عادی</string>
+  <string name="pref_walk_speed_fast">سریع</string>
+  <string name="pref_show_when_locked_title">نمایش سفر حتی وقتی که صفحه قفل می باشد</string>
+  <string name="pref_show_when_locked_summary">نمایش روی صفحه قفل شده</string>
+  <string name="error">خطاء</string>
+  <string name="error_no_internet">نیاز به اتصال اینترنت است. لطفا مطمئن شوید که اینترنت شما کار میکند.</string>
+  <string name="error_connection_failure">اتصال برقرار نشد. لطفا دوباره تلاش کنید.</string>
+  <string name="error_trip_refresh_failed">داده برای سفر فعلی رفرش نشد.</string>
+  <string name="error_geo_intent">مکان بیرونی باز نشد</string>
+  <string name="error_find_nearby_stations">ایستگاه های مجاور پیدا نشدند</string>
+  <string name="error_departures">هیچ خروجی پیدا نشد</string>
+  <string name="error_no_calendar">هیچ تقویمی نصب نشده است :(</string>
+  <string name="trip_error_ambiguous">مکان پیدا نشد. لطفا سعی کنید مکان های دیگری را امتحان کنید.</string>
+  <string name="trip_error_too_close">مکان \'مبداء\' و \'مقصد\' بیش از حد به یکدیگر نزدیک می باشند.</string>
+  <string name="trip_error_unknown_from">مکان \'مبداء\' شناسایی نشد. لطفا یک آدرس دیگر را امتحان کنید.</string>
+  <string name="trip_error_unknown_via">مکان \'از طریق\' شناسایی نشد. لفطا یک ادرس دیگر امتحان کنید.</string>
+  <string name="trip_error_unknown_to">مکان \'مقصد\' شناسایی نشد. لطفا یک آدرس دیگر را امتحان کنید.</string>
+  <string name="trip_error_unresolvable_address">آدرس داده شده پیدا نشد. لطفا یک آدرس دیگر را امتحان کنید.</string>
+  <string name="trip_error_no_trips">هیچ اتصالی پیدا نشد :(</string>
+  <string name="trip_error_invalid_date">تاریخ جستجو توسط تامین کننده داده پشتیبانی نمی شود. لطفا یک تاریخ دیگر را امتحان کنید.</string>
+  <string name="trip_error_service_down">تامین کننده داده هم اکنون برقرار نمی باشد :(
+لطفا بعدا امتحان کنید.</string>
+  <string name="trip_error_pte">اگر میخواهید این خطا را گزارش کنید، لطفا آن را به صورت مستقیم به %1$s گزارش کنید.</string>
+  <string name="trip_issue">ممکن است با این کانکشن اشکالی وجود داشته باشد.</string>
+  <string name="trip_not_travelable">غیر ممکن یا لغو شده</string>
+  <string name="try_again">دوباره امتحان کنید</string>
+  <!--This string shows the number of meters one has to walk. Please keep the translation short.-->
+  <string name="meter">%d متر</string>
+  <plurals name="stops">
+    <item quantity="one">%d توقف</item>
+    <item quantity="other">%d توقف</item>
+  </plurals>
+  <!--This is the platform or position where a train will depart or arrive. Please keep it short as it will be shown after the station name.-->
+  <string name="platform">پلتفورم %s</string>
+  <string name="system_default">پیش فرض سیستم</string>
+  <string name="trip_share_date">تاریخ: %s</string>
+  <string name="times_include_delays">(توجه: زمان ها ممکن است شمال تاخیر های گزارش شده باشد)</string>
+  <string name="created_by">ایجاد شده توسط %s</string>
+  <string name="home">خانه</string>
+  <string name="home_dialog_title">تنظیم محل خانه</string>
+  <string name="widget_name_quickhome">من را به خانه ببر</string>
+  <string name="work">کار</string>
+  <string name="work_hint">تنظیم محل کار</string>
+  <string name="widget_name_quickwork">رفتن به کار</string>
+  <string name="tap_to_set">برای تنظیم کردن کلیک کنید</string>
+  <string name="widget_name_favorites">%1$s به %2$s</string>
+  <string name="widget_name_favorites_via">%1$s به %2$s (از طریق %3$s)</string>
+  <string name="action_set_locations">ویرایش جستجو</string>
+  <string name="action_swap_locations">جستجو سفر بازگشت</string>
+  <string name="action_change">تغییر</string>
+  <string name="action_add_shortcut">افزودن میانبر لانچر</string>
+  <string name="location_gps">از مکان فعلی استفاده کن</string>
+  <string name="warning_no_gps_fix">مکان شما هنوز موقعیت یابی نشده است.</string>
+  <string name="permission_denied_gps">شما اجازه دسترسی به مکان خود را نداده اید، برای همین این عملیات قابل اجراء نمی باشد. لطفا اجازه دسترسی به آن را از قسمت تنظیمات برنامه بدهید.</string>
+  <string name="warning_gps_off">مکان خاموش می باشد. لطفا از قسمت تنظیمات آن را روشن کنید.</string>
+  <string name="onboarding_location_title">توقف کردن</string>
+  <string name="onboarding_location_message">امکاناتی بیشتر در پایین به صورت مخفی قرار دارند</string>
+  <string name="select_products">انتخاب وسیله های حمل و نقل</string>
+  <string name="product_high_speed_train">قطار سرعت-بالا</string>
+  <string name="product_regional_train">قطار منطقه ای</string>
+  <string name="product_suburban_train">قطار برون شهری</string>
+  <string name="product_subway">مترو</string>
+  <string name="product_tram">تراموا</string>
+  <string name="product_bus">اتوبوس</string>
+  <string name="product_ferry">کشتی</string>
+  <string name="product_cablecar">ماشین کابلی</string>
+  <string name="product_on_demand">بر پایه تقاضا</string>
+  <!--ckChangeLog-->
+  <string name="changelog_full_title" tools:ignore="UnusedResources">تغییرات</string>
+  <string name="changelog_title" tools:ignore="UnusedResources">چه چیز جدیدی وجود دارد</string>
+  <string name="changelog_show_full" tools:ignore="UnusedResources">بیشتر…</string>
+  <string name="np_continent_europe">اروپا</string>
+  <string name="np_continent_africa">آفریقا</string>
+  <string name="np_continent_north_america">آمریکای شمالی</string>
+  <string name="np_continent_central_america">آمریکای مرکزی</string>
+  <string name="np_continent_south_america">آمریکای جنوبی</string>
+  <string name="np_continent_asia">آسیا</string>
+  <string name="np_continent_oceania">اقیانوسیه</string>
+  <string name="np_region_australia">استرالیا</string>
+  <string name="np_desc_australia">ملبورن، سیدنی، بریزبن، پرت، آدلاید، هوبارت، لانسستون، برنی</string>
+  <string name="np_desc_sydney">استرالیا، ولز جنوبی نو، سیدنی</string>
+  <string name="np_region_pt">‍پرتغال</string>
+  <string name="np_name_pt">‍پرتغال</string>
+  <string name="np_desc_pt">لیسبون</string>
+  <string name="np_desc_pt_networks">اتوبوس، قطار، قطار کابلی، فرابر، مترو</string>
+  <string name="np_region_austria">اتریش</string>
+  <string name="np_desc_ivb">اینسبروک</string>
+  <string name="np_desc_linz">اوبراسترایش، لینتس</string>
+  <string name="np_desc_oebb">اتریش</string>
+  <string name="np_desc_stv">اشتایرمارک، گراتس، ماربورگ، ماریبور</string>
+  <string name="np_desc_vor">نیدراسترایش، بورگن‌لاند، وین</string>
+  <string name="np_desc_vvt">تیرول</string>
+  <string name="np_desc_wien">وین</string>
+  <string name="np_region_belgium">بلژیک</string>
+  <string name="np_desc_sncb">حمل و نقل عمومی در بلژیک</string>
+  <string name="np_name_br">برزیل</string>
+  <string name="np_desc_br">سائو پائولو، ریو دو ژانیرو، بلو هوریزونته و پورتو آلگری</string>
+  <string name="np_name_br_floripa">فلوریانوپلیس</string>
+  <string name="np_desc_br_floripa">مسیر های اتوبوس زیادی وجود دارد، هیچ اتوبوس تشریفاتی وجود ندارد</string>
+  <string name="np_region_canada">کانادا</string>
+  <string name="np_name_ontario">انتاریو</string>
+  <string name="np_name_quebec">کبک</string>
+  <string name="np_desc_quebec">دو-مونتاین، لاوال، لسامپسیون، اوتاوه، سودواست، کبک، اکسو، لانودییر، لورانتید، مونترآل، له مولن،  لا وله-دو-ریشولیو، روسیون، شربروک، سنت-ژولی</string>
+  <string name="np_name_britishcolumbia">بریتیش کلمبیا</string>
+  <string name="np_desc_britishcolumbia">حمل و نقل عمومی در BC</string>
+  <string name="np_desc_britishcolumbia_networks">ترنسلینک ( میترو ونکوور) و بی سی ترانزیت (بقیه بریتیش کلمبیا)</string>
+  <string name="np_region_denmark">دانمارک</string>
+  <string name="np_desc_dsb">دانمارک، کپنهاگ</string>
+  <string name="np_name_rt">اروپا</string>
+  <string name="np_desc_rt">فقط قطار های مسافت طولانی</string>
+  <string name="np_desc_rt_networks">اتحادیه Railteam</string>
+  <string name="np_region_finland">فنلاند</string>
+  <string name="np_desc_fi">هلسینکی، تورکو، تامپره، ییواسکیلا، اولو</string>
+  <string name="np_region_france">فرانسه</string>
+  <string name="np_name_francenortheast">شمال شرقی فرانسه</string>
+  <string name="np_desc_francenortheast">اشتراسبورگ، مس، لیل، نانسی</string>
+  <string name="np_name_francenorthwest">شمال غربی فرانسه</string>
+  <string name="np_desc_francenorthwest">برتانی، پی دو لا لوآر، سانتر، نرماندی سفلی، نرماندی علیا</string>
+  <string name="np_name_frenchsoutheast">جنوب شرقی فرانسه</string>
+  <string name="np_desc_frenchsoutheast">پروانس-آلپ-کوت دازور، رون-آلپ، لانگداک روسیون، اوورنی، جزیره کرس، لیون</string>
+  <string name="np_name_frenchsouthwest">جنوب غربی فرانسه</string>
+  <string name="np_desc_frenchsouthwest">پواتو-شرانت، لیموزن، آکیتن، پیرنه میانه، بوردو، تولوز</string>
+  <string name="np_name_paris">پاریس</string>
+  <string name="np_desc_paris">ایل-دو-فرانس، فرانسه، پاریس</string>
+  <string name="np_region_gb">بریتانیای کبیر</string>
+  <string name="np_desc_mersey">ناحیه شهر لیورپول</string>
+  <string name="np_desc_tlem">لندن بزرگ، بیرمنگام، داربی‌شر، لسترشر، راتلند، نورث‌همپتون‌شر، ناتینگهام‌شر، لینکلن‌شر، بارکشر، باکینگهام‌شر، ساسکس شرقی، همپشر، جزیره وایت، کنت، آکسفوردشر، ساری، ساسکس غربی، اسکس، هرتفوردشر، بدفوردشر، کمبریج‌شر، نورفک، سافک، سامرست، گلاسترشر، ویلتشر، دورست، دوون، استوفورد، ایست‌لی، سوئیندون، گلاستر،  پلیموث، توربی، بورنموث، پول</string>
+  <string name="np_desc_tlwm" tools:keep="@string/np_desc_tlwm">بیرمنگام</string>
+  <string name="np_region_germany">آلمان</string>
+  <string name="np_desc_avv">آوگسبورگ</string>
+  <string name="np_desc_bayern">بایرن</string>
+  <string name="np_desc_bsvag">براونشوایگ، وولفسبورگ</string>
+  <string name="np_desc_bvg">برلین</string>
+  <string name="np_desc_db">بیشتر آلمان</string>
+  <string name="np_desc_db2">ارتباطات راه دور در اروپا</string>
+  <string name="np_desc_ding">بادن-وورتمبرگ، اولم، نوی-اولم</string>
+  <string name="np_desc_gvh">نیدرزاکسن، هانوفر، هامبورگ، برمرهافن</string>
+  <string name="np_desc_hvv" tools:keep="@string/np_desc_hvv">هامبورگ</string>
+  <string name="np_desc_invg">اینگولشتات</string>
+  <string name="np_desc_kvv">بادن-وورتمبرگ، کارلسروهه</string>
+  <string name="np_desc_mvg">مرکیشر کرایس، لودن‌شاید</string>
+  <string name="np_desc_mvv">باواریا، مونیخ</string>
+  <string name="np_desc_nasa">زاکسن، لایپزیگ، زاکسن-آنهالت، ماگدبورگ، هاله</string>
+  <string name="np_desc_nvbw">بادن-وورتمبرگ، کنستانتس، بازل، کانتون بازل اشتاد، رویتلینگن، روتوایل، توبینگن، زیگمارینگن</string>
+  <string name="np_desc_nvv">هسن، فرانکفورت، کاسل</string>
+  <string name="np_desc_rsag" tools:keep="@string/np_desc_rsag">روستوک</string>
+  <string name="np_desc_vbb">براندنبورگ، برلین</string>
+  <string name="np_desc_vbn" tools:keep="@string/np_desc_vbn">نیدرزاکسن، برمن، برمرهافن، اولدنبورگ (اولدنبورگ)، اسنابروک</string>
+  <string name="np_desc_vgn">نورنبرگ، فورت، ارلانگن، بایرویت، بامبرگ، شواباخ</string>
+  <string name="np_desc_vgs">زارلاند، زاربروکن</string>
+  <string name="np_desc_vmv">مکلنبورگ-فورپومرن، شورین</string>
+  <string name="np_desc_vrn">بادن-وورتمبرگ، راینلاند-فالتس، مانهایم، ماینتس، تری‌یر</string>
+  <string name="np_desc_vrr">نوردراین-وستفالن، کلن، بن، اسن، دورتموند، دوسلدورف، مونستر، پادربورن، هخستر</string>
+  <string name="np_desc_vrs">کلن، بن</string>
+  <string name="np_desc_vvm">شوابن، میتلشوابن، کرومباخ، گونتسبورگ، ممینگن</string>
+  <string name="np_desc_vvo">زاکسن، درسدن</string>
+  <string name="np_desc_vvs">بادن-وورتمبرگ، اشتوتگارت</string>
+  <string name="np_desc_vvv">فگتلند، پلاوئن</string>
+  <string name="np_desc_vmt">وی ام تی</string>
+  <string name="np_region_ireland">ایرلند</string>
+  <string name="np_desc_tfi">ایرلند، دوبلین، بلفاست</string>
+  <string name="np_region_israel" tools:keep="@string/np_region_israel">اسرائیل</string>
+  <string name="np_desc_jet" tools:keep="@string/np_desc_jet">اسرائیل، اورشلیم</string>
+  <string name="np_name_it">ایتالیا</string>
+  <string name="np_desc_it">رم، میلان، تورین، ونیز، پالرمو، ترنتو</string>
+  <string name="np_region_liechtenstein">لیختن‌اشتاین</string>
+  <string name="np_name_vmobil">مجمع حمل و نقل ورلربرگ</string>
+  <string name="np_desc_vmobil">لیختن‌اشتاین، فورآرلبرگ، برگنتس</string>
+  <string name="np_region_luxembourg">لوکزاموبرگ</string>
+  <string name="np_desc_lu">لوکزامبورگ</string>
+  <string name="np_region_netherlands">هلند</string>
+  <string name="np_desc_ns">هلند، آمستردام</string>
+  <string name="np_desc_negentwee">تمام حمل و نقل عمومی در هلند</string>
+  <string name="np_name_nz">نیوزلند</string>
+  <string name="np_desc_nz">نیوزیلند، ولینگتون، آوکلند</string>
+  <string name="np_region_poland">لهستان</string>
+  <string name="np_name_spain">اسپانیا</string>
+  <string name="np_desc_spain">مادرید، بارسلون، سرزمین باسک، والنسیا، آلیکانته، مایورکا، مینورکا، تنریف، لا پالما، نابارا</string>
+  <string name="np_name_hungary">مجارستان</string>
+  <string name="np_desc_hungary">بوداپست، میشکولتس</string>
+  <string name="np_name_czechia">چک</string>
+  <string name="np_desc_czechia">پراگ و دیگران</string>
+  <string name="np_region_sweden">سوئد</string>
+  <string name="np_desc_se">سوئد، استکهلم</string>
+  <string name="np_region_switzerland">سوئیس</string>
+  <!--SBB is german/international, CFF is french and FFS is italian! So this IS translatable.-->
+  <string name="np_name_sbb" translatable="true">راه آهن فدرال سوئیس</string>
+  <string name="np_desc_sbb">سوئیس</string>
+  <string name="np_desc_vbl">لوتسرن</string>
+  <string name="np_desc_zvv">زوریخ</string>
+  <string name="np_region_uae">امارات متحده عربی</string>
+  <string name="np_name_dub">دوبی</string>
+  <string name="np_desc_dub">امارات متحده عربی، دوبی</string>
+  <string name="np_region_usa">ایالات متحده آمریکا</string>
+  <string name="np_desc_rtachicago">شیکاگو</string>
+  <string name="np_name_usny">ایالت های نیوجرسی و نیویورک</string>
+  <string name="np_name_california">کالیفرنیا</string>
+  <string name="np_desc_california">حمل و نقل عمومی در کالیفرنیا (آمریکا)</string>
+  <string name="np_name_oregon">اورگن</string>
+  <string name="np_desc_oregon">حمل و نقل سراسری در ایالت اورگن (آمریکا)</string>
+  <string name="np_name_costa_rica">کاستاریکا</string>
+  <string name="np_name_ghana">غنا</string>
+  <string name="np_desc_ghana">آکرا</string>
+  <string name="np_name_nicaragua">نیکاراگوئه</string>
+  <string name="np_desc_nicaragua">اتوبوس های شهری، روستایی و سراسری فراهم شده توسط MapaNica.net  و مشارکت کنندگان OpenStreetMap</string>
+  <string name="maintainer">نگهدارنده</string>
+  <string name="contributors">مشارکت کنندگان</string>
+  <string name="translators">مترجمان</string>
+  <string name="dutch">هلندی</string>
+  <string name="french">فرانسوی</string>
+  <string name="german">آلمانی</string>
+  <string name="italian">ایتالیایی</string>
+  <string name="portuguese_br">پرتغالی (برزیل)</string>
+  <string name="spanish">اسپانیایی</string>
+  <string name="turkish">ترکی</string>
+  <string name="norwegian_bokmal">نروژی بوکمل</string>
+  <string name="basque">باسکی</string>
+  <string name="english">انگلیسی</string>
+  <string name="catalan">کاتالان</string>
+  <string name="polish">لهستانی</string>
+  <string name="tamil">تامیلی</string>
+  <string name="esperanto">اسپرانتو</string>
+  <string name="czech">چک</string>
+  <string name="hungarian">مجارستانی</string>
+  <string name="japanese">ژاپنی</string>
+  <string name="russian">روسی</string>
+  <string name="greek">یونانی</string>
+  <string name="farsi">فارسی</string>
+  <string name="taiwanese">چینی (تایوان)</string>
+  <string name="swedish">سوئدی</string>
+  <string name="ukrainian">اوکراینی</string>
+  <string name="danish">دانمارکی</string>
+</resources>

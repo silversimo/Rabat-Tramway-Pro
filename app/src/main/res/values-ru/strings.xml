@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="google_play_title" tools:keep="@string/google_play_title">Transportr - транспорт с открытым кодом</string>
+  <string name="google_play_short_desc" tools:keep="@string/google_play_short_desc">Бесплатный ассистент общественного транспорта без рекламы и без отслеживания</string>
+  <string name="google_play_full_desc" tools:keep="@string/google_play_full_desc" tools:ignore="StringFormatInvalid"><![CDATA[
+Transportr это некоммерческое приложение, разработанное людьми со всего мира.
+Они хотят сделать использование общественного транспорта максимально доступным для всех.
+
+Это приложение использует данные различных местных транспортных организаций
+и обеспечивает общий интерфейс для их использования.
+Оно не может проверить правильность данных
+и поэтому <i>не дает гарантий</i> для отображаемой информации.
+Используйте на свой страх и риск.
+
+<b>🛣️ Маршрут поездки</b>. Просто скажите Transportr куда Вы хотите пойти!
+Он найдет для Вас лучшие маршруты, подскажет, где пересесть на другой автобус,
+и даже время прибытия.
+
+<b>⏱️ Место отправления в реальном времени</b>. Показывает запланированное время выезда на всех станциях.
+В <i>поддерживаемых</i> областях так же будут показаны задержки в режиме реального времени.
+
+<b>🗽 Свободное программное обеспечение</b>. Исходный код Transportr на 100% открытый.
+Вы можете свободно использовать, изучать, распространять и улучшать его.
+Это приложение хорошо настолько, насколько <i>Вы</i> сделаете его таким.
+Вы даже можете добавить свой город самостоятельно, если он еще не поддерживается.
+
+<b>🛰️ Поиск местоположения.</b> Transportr использует GPS навигацию
+для отслеживания вашего текущего местоположения - чтобы Вы никогда не заблудились.
+Вы можете найти остановки рядом чтобы начать новую поездку
+а затем посмотреть, как долго Вы находитесь в пути.
+
+<b>🌟 Запоминает любимые места.</b> Чтобы добраться быстрее
+Transportr сохраняет часто используемые местоположения и поездки.
+Вам не нужно вводить их снова.
+
+<b>🚫 Без рекламы. Без отслеживания.</b>. Это приложение не показывает рекламу
+или раздражающие уведомления.
+Оно также не использует инструменты отслеживания, такие как Google Analytics для слежки за Вами.
+
+<b>🗺️ Красивые карты</b>. Показывает остановки или весь маршрут на карте
+и всегда знает, где Вы находитесь, чтобы не пропустить свою остановку.
+]]></string>
+  <string name="drawer_settings">Настройки</string>
+  <string name="drawer_changelog">Список изменений</string>
+  <string name="drawer_about">О приложении</string>
+  <string name="drawer_contributors">Пожертвовать</string>
+  <string name="drawer_report_issue">Сообщить о проблеме</string>
+  <string name="action_fav_trip">Добавить маршрут в избранное</string>
+  <string name="action_unfav_trip">Удалить маршрут из избранного</string>
+  <string name="action_switch_locations">Поменять местами Откуда и Куда</string>
+  <string name="trip_dep">Отбытие</string>
+  <string name="trip_arr">Прибытие</string>
+  <string name="action_refresh">Обновить</string>
+  <string name="action_navigation_expand">Показать через</string>
+  <string name="action_choose_products">Вид транспорта</string>
+  <string name="action_share">Поделиться</string>
+  <string name="action_trip_calendar">Добавить в календарь</string>
+  <string name="action_trip_delete">Удалить поездку</string>
+  <string name="action_show_on_external_map">Показать на внешней карте</string>
+  <string name="action_copy">Копировать</string>
+  <string name="directions">Направление</string>
+  <string name="directions_search">Поиск направлений</string>
+  <string name="drawer_departures">Отправление</string>
+  <string name="tab_about">О приложении</string>
+  <string name="tab_libraries">Библиотека</string>
+  <string name="about_description">Transportr является помощником общественного транспорта, разработанный людьми по всему миру, чтобы сделать использование общественного транспорта как можно проще там, где вы находитесь.</string>
+  <string name="about_warning_title">Предупреждение</string>
+  <string name="about_warning_text">Нет никакой гарантии правильности (предоставленных) данных. Пожалуйста, используйте это приложение только на свой страх и риск.</string>
+  <string name="about_contributions">Это приложение является бесплатным программным обеспечением, так что вы можете свободно использовать, изучать, делиться и улучшать его. Взносы приветствуются и поощряются. Если вы хотите внести свой вклад, пожалуйста, посетите домашнюю страницу для получения дополнительной информации.</string>
+  <string name="about_visit_website">Посетить веб-сайт</string>
+  <string name="open_navigation_drawer">Открыть панель навигации</string>
+  <string name="from">Из</string>
+  <string name="to">В</string>
+  <string name="via">Через</string>
+  <string name="search_hint">Искать здесь</string>
+  <string name="from_here">Отсюда</string>
+  <string name="to_here">Сюда</string>
+  <string name="clear_location">Очистить местоположение</string>
+  <string name="walk">Пешком</string>
+  <string name="alpha">альфа</string>
+  <string name="beta">бета</string>
+  <string name="network">Сеть</string>
+  <string name="pick_network_activity">Выбрать область</string>
+  <string name="pick_network_first_run">Добро пожаловать в Transportr!\n\nПожалуйста, выберите транспортную сеть в Вашем городе для продолжения. Вы можете изменить это в любое время.</string>
+  <string name="stations_searching_position">Поиск текущего местоположения…</string>
+  <string name="drawer_nearby_stations">Остановки рядом</string>
+  <string name="find_nearby_stations">Найти остановки рядом</string>
+  <string name="find_departures">Найти отправную точку</string>
+  <string name="share_trip_via">Поделиться маршрутом через…</string>
+  <string name="more">Больше</string>
+  <!--Shows a short(!) representation of how long you need to walk, e.g. "for 5 min"-->
+  <string name="for_x_min">в течение %d мин</string>
+  <string name="change_time">Изменить время</string>
+  <string name="now">Сейчас</string>
+  <string name="now_small">сейчас</string>
+  <string name="yesterday">Вчера</string>
+  <string name="today">Сегодня</string>
+  <string name="tomorrow">Завтра</string>
+  <string name="in_x_minutes">через %d мин</string>
+  <string name="x_minutes_ago">%d мин назад</string>
+  <string name="time_picker_previous_day">Предыдущий день</string>
+  <string name="time_picker_next_day">Следующий день</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Отмена</string>
+  <string name="pref_transport_network">Транспортная система</string>
+  <string name="pref_display">Показать</string>
+  <string name="pref_theme_title">Тема</string>
+  <string name="pref_theme_light">Светлая</string>
+  <string name="pref_theme_dark">Темная</string>
+  <string name="pref_language_title">Язык</string>
+  <string name="pref_directions_routing">Направление и маршрут поездки</string>
+  <string name="pref_optimize">Улучшить</string>
+  <string name="pref_optimize_least_duration">Минимальное время</string>
+  <string name="pref_optimize_least_changes">Минимум пересадок</string>
+  <string name="pref_optimize_least_walking">Меньше ходьбы</string>
+  <string name="pref_walk_speed">Скорость ходьбы</string>
+  <string name="pref_walk_speed_slow">Медленно</string>
+  <string name="pref_walk_speed_normal">Нормально</string>
+  <string name="pref_walk_speed_fast">Быстро</string>
+  <string name="pref_show_when_locked_summary">Показывать на заблокированном экране</string>
+  <string name="error">Ошибка</string>
+  <string name="error_no_internet">Требуется подключение к интернету. Пожалуйста, убедитесь в Вашем интернет-соединении.</string>
+  <string name="error_connection_failure">Сбой подключения. Попробуйте еще раз.</string>
+  <string name="error_trip_refresh_failed">Не удалось обновить данные для текущего маршрута.</string>
+  <string name="error_geo_intent">Не удалось открыть внешнее расположение</string>
+  <string name="error_find_nearby_stations">Не удалось найти остановки рядом</string>
+  <string name="error_departures">Не может найти любую отправную точку</string>
+  <string name="error_no_calendar">Календарь не установлен :(</string>
+  <string name="trip_error_ambiguous">Не удалось найти адрес. Попробуйте поискать другой адрес.</string>
+  <string name="trip_error_too_close">\'Откуда\' и \'куда\' расположены слишком близко друг к другу.</string>
+  <string name="trip_error_unknown_from">Не удалось найти расположение \'откуда\'. Пожалуйста, попробуйте еще раз.</string>
+  <string name="trip_error_unknown_via">Не удалось найти расположение \'через\'. Пожалуйста, попробуйте еще раз.</string>
+  <string name="trip_error_unknown_to">Не удалось найти расположение \'куда\'. Пожалуйста, попробуйте еще раз.</string>
+  <string name="trip_error_unresolvable_address">Не удалось найти указанный адрес. Пожалуйста, попробуйте другой.</string>
+  <string name="trip_error_no_trips">Нет интернет-соединения :(</string>
+  <string name="trip_error_invalid_date">Дата поиска в настоящее время не поддерживается поставщиком данных. Пожалуйста, попробуйте в другой раз.</string>
+  <string name="trip_error_service_down">Поставщик данных в настоящее время не работает :(\Повторите попытку позже.</string>
+  <string name="trip_issue">Возникла проблема с соединением.</string>
+  <string name="try_again">Попробуйте снова</string>
+  <!--This string shows the number of meters one has to walk. Please keep the translation short.-->
+  <string name="meter">%d м</string>
+  <plurals name="stops">
+    <item quantity="one">%dостановка</item>
+    <item quantity="few">%d остановки</item>
+    <item quantity="many">%d остановок</item>
+    <item quantity="other">%d остановок</item>
+  </plurals>
+  <!--This is the platform or position where a train will depart or arrive. Please keep it short as it will be shown after the station name.-->
+  <string name="platform">Платформа %s</string>
+  <string name="system_default">Система по умолчанию</string>
+  <string name="trip_share_date">Дата: %s</string>
+  <string name="times_include_delays">(Внимание: могут быть включены сообщения о задержках)</string>
+  <string name="created_by">Разработано %s</string>
+  <string name="home">Дом</string>
+  <string name="home_dialog_title">Установить местоположение дома</string>
+  <string name="widget_name_quickhome">Отвези меня домой</string>
+  <string name="work">Работа</string>
+  <string name="work_hint">Установить местоположение работы</string>
+  <string name="widget_name_quickwork">Добраться до работы</string>
+  <string name="tap_to_set">Нажмите, чтобы установить</string>
+  <string name="widget_name_favorites">от %1$s до %2$s</string>
+  <string name="widget_name_favorites_via">от %1$s до %2$s (через %3$s)</string>
+  <string name="action_set_locations">Редактировать поиск</string>
+  <string name="action_swap_locations">Найти обратный маршрут</string>
+  <string name="action_change">Изменить</string>
+  <string name="action_add_shortcut">Создать ярлык запуска</string>
+  <string name="location_gps">Использовать текущую позицию</string>
+  <string name="warning_no_gps_fix">Ваше местоположение не определено, все еще.</string>
+  <string name="permission_denied_gps">Вы не разрешили доступ к вашему местоположению, поэтому эта функция не будет работать. Пожалуйста, предоставьте разрешение в настройках приложения.</string>
+  <string name="warning_gps_off">Местоположение отключено. Пожалуйста, включите его в настройках.</string>
+  <string name="onboarding_location_title">Потянуть</string>
+  <string name="onboarding_location_message">Другие функции скрываются ниже</string>
+  <string name="select_products">Выбор транспортного средства</string>
+  <string name="product_high_speed_train">Скоростной поезд</string>
+  <string name="product_regional_train">Региональный поезд</string>
+  <string name="product_suburban_train">Пригородный поезд</string>
+  <string name="product_subway">Метро</string>
+  <string name="product_tram">Трамвай</string>
+  <string name="product_bus">Автобус</string>
+  <string name="product_ferry">Паром</string>
+  <string name="product_cablecar">Канатная дорога</string>
+  <string name="product_on_demand">По запросу</string>
+  <!--ckChangeLog-->
+  <string name="changelog_full_title" tools:ignore="UnusedResources">Список изменений</string>
+  <string name="changelog_title" tools:ignore="UnusedResources">Что нового</string>
+  <string name="changelog_show_full" tools:ignore="UnusedResources">Больше…</string>
+  <string name="np_continent_europe">Европа</string>
+  <string name="np_continent_africa">Африка</string>
+  <string name="np_continent_north_america">Северная Америка</string>
+  <string name="np_continent_central_america">Центральная Америка</string>
+  <string name="np_continent_south_america">Южная Америка</string>
+  <string name="np_continent_asia">Азия</string>
+  <string name="np_continent_oceania">Океания</string>
+  <string name="np_region_australia">Австралия</string>
+  <string name="np_desc_australia">Мельбурн, Сидней, Брисбен, Перт, Аделаида, Хобарт, Лонсестон, Берни</string>
+  <string name="np_desc_sydney">Австралия, Новый Южный Уэльс, Сидней</string>
+  <string name="np_region_austria">Австрия</string>
+  <string name="np_desc_ivb">Инсбрук</string>
+  <string name="np_desc_linz">Верхняя Австрия, Линц</string>
+  <string name="np_desc_oebb">Австрия</string>
+  <string name="np_desc_stv">Штирия, Грац, Марбург, Марибор</string>
+  <string name="np_desc_vor">Нижняя Австрия, Бургенланд, Вена</string>
+  <string name="np_desc_vvt">Тироль</string>
+  <string name="np_desc_wien">Вена</string>
+  <string name="np_region_belgium">Бельгия</string>
+  <string name="np_desc_sncb">Общественный транспорт в Бельгии</string>
+  <string name="np_name_br">Бразилия</string>
+  <string name="np_desc_br">Сан-Паулу, Рио-де-Жанейро, Белу-Оризонти и Порту-Алегри</string>
+  <string name="np_name_br_floripa">Флорианополис</string>
+  <string name="np_desc_br_floripa">Много автобусных маршрутов, no Executivos</string>
+  <string name="np_region_canada">Канада</string>
+  <string name="np_name_ontario">Онтарио</string>
+  <string name="np_name_quebec">Квебек</string>
+  <string name="np_desc_quebec">Две Горы, Лаваль, Успенская, Оттава, Юго-Запад, Quebec, Вверх-Сен-Лоран, Lanaudière, Полуострова, Laurentides, Montreal, Мельницы, Валле-дю-Ришелье, Коптево-Ришелье-кариньян-Carignan, Руссильон, Сорель-Варен, Richelain, Шербрук, Сент-Жюли</string>
+  <string name="np_name_britishcolumbia">Британская Колумбия</string>
+  <string name="np_desc_britishcolumbia">Общественный транспорт в БС</string>
+  <string name="np_desc_britishcolumbia_networks">Транслинк (Метро Ванкувер) и БС Транзит (остальная часть БС)</string>
+  <string name="np_region_denmark">Денмарк</string>
+  <string name="np_desc_dsb">Денмарк, Копенгаген</string>
+  <string name="np_name_rt">Европа</string>
+  <string name="np_desc_rt">Только поезда дальнего следования</string>
+  <string name="np_desc_rt_networks">Railteam alliance</string>
+  <string name="np_region_finland">Финляндия</string>
+  <string name="np_region_france">Франция</string>
+  <string name="np_name_francenortheast">Франция Северо-Восток</string>
+  <string name="np_desc_francenortheast">Страсбург, Нанси, Лилль, Нанси</string>
+  <string name="np_name_francenorthwest">Франция Северо-Запад</string>
+  <string name="np_desc_francenorthwest">Бретань, Pays de la Loire, Центр, Нижняя Нормандия, Верхняя Нормандия</string>
+  <string name="np_name_frenchsoutheast">Франция Юго-Восток</string>
+  <string name="np_desc_frenchsoutheast">Прованс-Альпы-лазурный Берег, Рона-Альпы, Лангедок-Руссильон, Овернь, Corsica, Лион</string>
+  <string name="np_name_frenchsouthwest">Франция Юго-Запад</string>
+  <string name="np_desc_frenchsouthwest">Пуату-Шаранта, Лимузен, Аквитания, Юг-Пиренеи, Бордо, Тулуза</string>
+  <string name="np_name_paris">Париж</string>
+  <string name="np_desc_paris">Ile-de-France, Франция, Париж</string>
+  <string name="np_region_gb">Великобритания</string>
+  <string name="np_desc_mersey">Ливерпуль Сити Регион</string>
+  <string name="np_desc_tlem">Большой Лондон, Бирмингем, графство Дербишир, Лестершир, Оксфорд, Оксфордшир, графство Ноттингемшир в графстве Линкольншир, графство Беркшир, Бакингемшир, Восточный Сассекс, Хэмпшир, Остров Уайт, Кент, Кент, Суррей и Западный Сассекс, Эссекс, Хартфордшир, Бедфордшир, Кембриджшир, Норфолк, Саффолк, Сомерсет, Глостершир, графство Уилтшир, Дорсет, Девон, Корнуолл, Западный Девон, городе троубридж, Истли, Оксфорд, Глостер, Плимут, Плимут, Борнмут, Пул</string>
+  <string name="np_desc_tlwm" tools:keep="@string/np_desc_tlwm">Бирмингем</string>
+  <string name="np_region_germany">Германия</string>
+  <string name="np_desc_avv">Аугсбург</string>
+  <string name="np_desc_bayern">Бавария</string>
+  <string name="np_desc_bsvag">Брауншвейг, Вольфсбург</string>
+  <string name="np_desc_bvg">Берлин</string>
+  <string name="np_desc_db">Большая часть Германии</string>
+  <string name="np_desc_db2">Междугородние рейсы в Европе</string>
+  <string name="np_desc_ding">Баден-Вюртемберг, Ульм, Ной-Ульм</string>
+  <string name="np_desc_gvh">Нижняя Саксония, Ганновер, Гамбург, Бремерхафен</string>
+  <string name="np_desc_hvv" tools:keep="@string/np_desc_hvv">Гамбург</string>
+  <string name="np_desc_invg">Ингольштадт</string>
+  <string name="np_desc_kvv">Баден-Вюртемберг, Карлсруэ</string>
+  <string name="np_desc_mvg">Märkischer Kreis, Lüdenscheid</string>
+  <string name="np_desc_mvv">Бавария, Мюнхен</string>
+  <string name="np_desc_nasa">Саксония, Лейпциг, Саксония-Анхальт, Магдебург, Галле</string>
+  <string name="np_desc_nvbw">Баден-Вюртемберг, Констанц, Базель, Базель-Штадт, Ройтлинген, Роттвайль, Тюбинген, Зигмаринген</string>
+  <string name="np_desc_nvv">Hesse, Франкфурт-на-Майне, Кассель</string>
+  <string name="np_desc_rsag" tools:keep="@string/np_desc_rsag">Росток</string>
+  <string name="np_desc_vbb">Бранденбург, Берлин</string>
+  <string name="np_desc_vbn" tools:keep="@string/np_desc_vbn">Нижняя Саксония, Бремен, Bremerhaven, Ольденбург (Oldenburg), Оснабрюк</string>
+  <string name="np_desc_vgn">Nuremberg, Фюрт, Эрланген, Байройт, Бамберг, Город Швабах</string>
+  <string name="np_desc_vgs">Саар, Саарбрюккен</string>
+  <string name="np_desc_vmv">Мекленбург-Передняя Померания, Шверин</string>
+  <string name="np_desc_vrn">Баден-Вюртемберг, Rhineland-Palatinate, Мангейм, Майнц, Трир</string>
+  <string name="np_desc_vrr">Северный Рейн-Вестфалия, Кельн, Бонн, Эссен, Дортмунд, Дюссельдорф, Мюнстер, Падерборн, Хекстер</string>
+  <string name="np_desc_vrs">Кельн, Бонн</string>
+  <string name="np_desc_vvm">Швабия, центральная Швабия, Крумбах, Гюнцбург, Мемминген</string>
+  <string name="np_desc_vvo">Саксония, Дрезден</string>
+  <string name="np_desc_vvs">Баден-Вюртемберг, Штутгарт</string>
+  <string name="np_desc_vvv">Фогтланд, Плауэн</string>
+  <string name="np_desc_vmt">Mittelthüringen</string>
+  <string name="np_region_ireland">Ирландия</string>
+  <string name="np_desc_tfi">Ирландия, Дублин, Белфаст</string>
+  <string name="np_region_israel" tools:keep="@string/np_region_israel">Израиль</string>
+  <string name="np_desc_jet" tools:keep="@string/np_desc_jet">Израиль, Иерусалим</string>
+  <string name="np_name_it">Италия</string>
+  <string name="np_desc_it">Рим, Милан, Турин, Венеция, Палермо, Тренто</string>
+  <string name="np_region_liechtenstein">Лихтенштейн</string>
+  <string name="np_name_vmobil">VVV</string>
+  <string name="np_desc_vmobil">Лихтенштейн, Форарльберг, Брегенц</string>
+  <string name="np_region_luxembourg">Люксембург</string>
+  <string name="np_desc_lu">Люксембург</string>
+  <string name="np_region_netherlands">Нидерланды</string>
+  <string name="np_desc_ns">Нидерланды, Амстердам</string>
+  <string name="np_desc_negentwee">Весь общественный транспорт в Нидерландах</string>
+  <string name="np_name_nz">Новая Зеландия</string>
+  <string name="np_desc_nz">Новая Зеландия, Веллингтон, Окленд</string>
+  <string name="np_region_poland">Польша</string>
+  <string name="np_name_spain">Испания</string>
+  <string name="np_desc_spain">Мадрид, Барселона, Страна Басков, Валенсия, Аликанте, Майорка, Менорка, Тенерифе, Ла-Пальма, Наварра</string>
+  <string name="np_name_hungary">Венгрия</string>
+  <string name="np_desc_hungary">Будапешт, Мишкольц</string>
+  <string name="np_region_sweden">Швеция</string>
+  <string name="np_desc_se">Швеция, Стокгольм</string>
+  <string name="np_region_switzerland">Швейцария</string>
+  <!--SBB is german/international, CFF is french and FFS is italian! So this IS translatable.-->
+  <string name="np_name_sbb" translatable="true">SBB</string>
+  <string name="np_desc_sbb">Швейцария</string>
+  <string name="np_desc_vbl">Люцерна</string>
+  <string name="np_desc_zvv">Цюрих</string>
+  <string name="np_region_uae">Объединенные Арабские Эмираты</string>
+  <string name="np_name_dub">Дубай</string>
+  <string name="np_desc_dub">Объединенные Арабские Эмираты, Дубай</string>
+  <string name="np_region_usa">Соединенные Штаты Америки</string>
+  <string name="np_desc_rtachicago">Чикаго</string>
+  <string name="np_name_usny">Нью-Йорк и Нью-Джерси</string>
+  <string name="np_name_california">Калифорния</string>
+  <string name="np_desc_california">Общественный транспорт в Калифорнии (США)</string>
+  <string name="np_name_oregon">Орегон</string>
+  <string name="np_desc_oregon">Глобальный транспорт в штате Орегон (США)</string>
+  <string name="np_name_costa_rica">Коста-Рика</string>
+  <string name="np_name_ghana">Гана</string>
+  <string name="np_desc_ghana">Акра</string>
+  <string name="np_name_nicaragua">Никарагуа</string>
+  <string name="np_desc_nicaragua">Городские, сельские и общенациональные автобусы, предоставляемые в партнерстве с MapaNica.net и OpenStreetMap</string>
+  <string name="maintainer">Maintainer</string>
+  <string name="contributors">Разработчики</string>
+  <string name="translators">Переводчики</string>
+  <string name="dutch">Голландский</string>
+  <string name="french">Французский</string>
+  <string name="german">Немецкий</string>
+  <string name="italian">Итальянский</string>
+  <string name="portuguese_br">Португальский (Бразилия)</string>
+  <string name="spanish">Испанский</string>
+  <string name="turkish">Турецкий</string>
+  <string name="norwegian_bokmal">Norwegian Bokmål</string>
+  <string name="basque">Баскский</string>
+  <string name="english">Английский</string>
+  <string name="catalan">Каталонский</string>
+  <string name="polish">Польский</string>
+  <string name="tamil">Тамильский</string>
+  <string name="esperanto">Эсперанто</string>
+  <string name="czech">Чешский</string>
+  <string name="hungarian">Венгерский</string>
+  <string name="japanese">Японский</string>
+  <string name="russian">Русский</string>
+  <string name="greek">Греческий</string>
+</resources>

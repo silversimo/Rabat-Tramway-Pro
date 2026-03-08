@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="google_play_title" tools:keep="@string/google_play_title">Transportr - Transport Public cu sursă deschisă</string>
+  <string name="google_play_short_desc" tools:keep="@string/google_play_short_desc">Asistent pentru transportul public gratuit, fără reclame sau tracking</string>
+  <string name="google_play_full_desc" tools:keep="@string/google_play_full_desc" tools:ignore="StringFormatInvalid"><![CDATA[
+Transportr este o aplicaţie non-profit dezvoltată de persoane din întreaga lume, în timpul lor liber.
+Aceştia doresc să facă folosirea transportului public cât mai uşor posibil pentru toată lumea.
+
+Această aplicaţie foloseşte datele de la diferite agenţii de transport şi oferă o interfaţă unificată pentru aceste informaţii.
+Aplicaţia nu poate verifica acurateţea datelor, drept urmare aplicaţia nu garantează validitatea informaţiilor.
+Vă rugăm să folosiţi aplicaţia pe riscul dumneavoastră.
+
+2🛣️ Itinerariul călătoriei2. Doar spunei aplicaţiei Transportr unde doreşti să mergi!
+Aceasta va găsi cele mai bune conexiuni pentru tine, te poate sfătui unde să schimbi autobuzul,
+şi îţi oferă un timp estimat de sosire.
+
+3⏱️ Plecări în timp real3. Arată plecările imediate din oricare şi din toate staţiile.
+În zonele 4suportate4, întârzierile în timp real pot fi afişate de asemenea.
+
+5🗽 Software Liber5. Codul sursă pentru Transportr este 100% liber.
+Poţi să foloseşti, studiezi, partajezi şi imbunătăţi codul.
+Această aplicaţie este atât de bună pe cât 6tu6 îţi doreşti.
+Poţi chiar să îţi adaugi oraşul în care locuieşti dacă, acesta nu există deja.
+
+7🛰️ Găseşteţi locaţia.7 Transortr foloseşte coordonatele GPS pentru a menţine poziţia ta - astfel tu nu te vei pierde.
+Poţi găsi staţii din împrejurimi pentru a porni o nouă călătorie
+şi mai apoi să observi cât mai ai din călătoria ta.
+
+8🌟 Memorează locurile favorite.8 Pentru a ajunge acolo unde doreşti mai rapid,
+Trabsportr salvează locaţii şi călătorii folosite frecvent.
+În acest mod nu trebuie să introduci datele pentru fiecare călătorie mereu.
+
+9🚫 Fără reclame, Fără Trackere9. Această aplicaţie nu afişează reclame sau notificări inervante.
+De asemenea nu foloseşte tool-uri precum Google Analytics pentru a te spiona.
+
+10🗺️ Hărţi frumoase10. Afişează staţii sau toată călătoria ta pe o hartă, astfel că vei ştii în orice moment unde te aflii şi unde urmează să cobori astfel încât să nu ratezi utmătorul autobuz.
+]]></string>
+  <string name="drawer_settings">Setări</string>
+  <string name="drawer_changelog">Jurnal de schimbări</string>
+  <string name="drawer_about">Despre</string>
+  <string name="drawer_contributors">Contributori</string>
+  <string name="drawer_report_issue">Raportează o eroare</string>
+  <string name="action_fav_trip">Marchează călătoria ca Favorită</string>
+  <string name="action_unfav_trip">Debifează călătoria de la Favorite</string>
+  <string name="action_switch_locations">Schimbă punctul de pornire cu destinaţia</string>
+  <string name="trip_dep">Plecare</string>
+  <string name="trip_arr">Sosire</string>
+  <string name="action_refresh">Actualizare</string>
+  <string name="action_navigation_expand">Arată Via</string>
+  <string name="action_choose_products">Mijloace de trasport</string>
+  <string name="action_share">Partajează</string>
+  <string name="action_trip_calendar">Adaugă la calendar</string>
+  <string name="action_trip_delete">Şterge călătoria</string>
+  <string name="action_show_on_external_map">Arată pe harta externă</string>
+  <string name="action_copy">Copiază</string>
+  <string name="directions">Direcții</string>
+  <string name="directions_search">Caută direcții</string>
+  <string name="drawer_departures">Plecări</string>
+  <string name="tab_about">Despre</string>
+  <string name="tab_libraries">Librării</string>
+  <string name="about_description">Transportr este un companion pentru transportul în comun dezvoltat de multiple persoane din jurul lumii, cu scopul de a face transportul public cât se poate de ușor, oriunde te-ai afla. </string>
+  <string name="about_warning_title">Avertisment</string>
+  <string name="about_warning_text">Nu este nici-o garanție pentru corectitudinea datelor (ce sunt procurate din afara aplicației). Vă rugăm să folosiți această aplicație pe riscul propriu.</string>
+  <string name="about_contributions">Această aplicație este Software Liber, deci aveți posibilitatea să folosiți, studiați, partajați sau îmbunătăți în mod liber această aplicație. Orice contribuție este încurajată, bine venită și apreciată. Dacă doriți să contribuiți, vă rugăm să vizități pagină web principală pentru mai multe informații.</string>
+  <string name="about_visit_website">Vizitează website-ul</string>
+  <string name="map_attribution_improve">Imbunătățește această hartă</string>
+  <string name="open_navigation_drawer">Deschide meniul de navigare</string>
+  <string name="from">Din</string>
+  <string name="to">Către</string>
+  <string name="via">Via</string>
+  <string name="search_hint">Caută aici</string>
+  <string name="from_here">De aici</string>
+  <string name="to_here">Până aici</string>
+  <string name="clear_location">Șterge locația</string>
+  <string name="walk">Mergeți</string>
+  <string name="alpha">alfa</string>
+  <string name="beta">beta</string>
+  <string name="network">Rețea</string>
+  <string name="pick_network_activity">Alege zona</string>
+  <string name="pick_network_first_run">Bine a-ți venit la Transportr!\n\nVă rugăm să selectați rețeaua de transport din zona dumneavoastră pentru a continua. Poți schimba acestă setare în orice moment.</string>
+  <string name="stations_searching_position">Se caută locația actuală...</string>
+  <string name="drawer_nearby_stations">Stații din apropriere</string>
+  <string name="find_nearby_stations">Cauta stații din apropriere</string>
+  <string name="find_departures">Caută plecări</string>
+  <string name="share_trip_via">Partajează călătoria Via...</string>
+  <string name="show_location_in">Arată locația în...</string>
+  <string name="more">Mai mult</string>
+  <!--Shows a short(!) representation of how long you need to walk, e.g. "for 5 min"-->
+  <string name="for_x_min">pentru %d min</string>
+  <string name="change_time">Schimbă timpul</string>
+  <string name="now">Acum</string>
+  <string name="now_small">acum</string>
+  <string name="yesterday">Ieri</string>
+  <string name="today">Azi</string>
+  <string name="tomorrow">Mâine</string>
+  <string name="in_x_minutes">în %dmin</string>
+  <string name="x_minutes_ago">acum %d minute</string>
+  <string name="total_time">Timp total: %s</string>
+  <string name="time_picker_previous_day">Ziua precedentă</string>
+  <string name="time_picker_next_day">Ziua următoare</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Anulare</string>
+  <string name="pref_transport_network">Rețeaua de transport</string>
+  <string name="pref_display">Ecran</string>
+  <string name="pref_theme_title">Temă</string>
+  <string name="pref_theme_light">Deschisă</string>
+  <string name="pref_theme_dark">Întunecată</string>
+  <string name="pref_theme_auto_battery">Setată de funcția de salvare a bateriei</string>
+  <string name="pref_theme_auto_system">Temă implicită a sistemului</string>
+  <string name="pref_language_title">Limba</string>
+  <string name="pref_directions_routing">Direcții și traseu</string>
+  <string name="pref_optimize">Optimizează pentru</string>
+  <string name="pref_optimize_least_duration">Cea mai mică durată</string>
+  <string name="pref_optimize_least_changes">Cele mai puține schimbări</string>
+  <string name="pref_optimize_least_walking">Cea mai mică distanța parcursă mergând</string>
+  <string name="pref_walk_speed">Viteza de mers</string>
+  <string name="pref_walk_speed_slow">Mică</string>
+  <string name="pref_walk_speed_normal">Normală</string>
+  <string name="pref_walk_speed_fast">Rapidă</string>
+  <string name="pref_show_when_locked_title">Arată călătoria chiar dacă ecranul este blocat</string>
+  <string name="pref_show_when_locked_summary">Arată peste ecranul blocat</string>
+  <string name="error">Eroare</string>
+  <string name="error_no_internet">Necesită conexiune la internet. Vă rugăm să vă asigurați că dispozitivul este conectat la internet.</string>
+  <string name="error_connection_failure">Conexiunea a eșuat. Vă rugăm să încercați din nou.</string>
+  <string name="error_trip_refresh_failed">Nu s-au putut reîmprospăta datele pentru călătoria curentă. </string>
+  <string name="error_geo_intent">Nu s-a putut deschide locația externă</string>
+  <string name="error_find_nearby_stations">Nu s-au putut găsi stații în apropriere</string>
+  <string name="error_departures">Nu s-au putut găsi plecări </string>
+  <string name="error_no_calendar">Nu există un calendar instalat :(</string>
+  <string name="error_no_map">Nu există hărți externe instalate :(</string>
+  <string name="trip_error_ambiguous">Nu s-a putut găsi nici-o locație. Vă rugăm să încercați din nou, folosind o locație diferită.</string>
+  <string name="trip_error_too_close">Locațiile \"Din\" și \"Către\" sunt prea apropriate.</string>
+  <string name="trip_error_unknown_from">Nu s-a putut găsi locația \"Din\". Vă rugăm să incercați o altă locație.</string>
+  <string name="trip_error_unknown_via">Nu s-a putut găsi locația escalei. Vă rugăm să încercați cu o altă locație.</string>
+  <string name="trip_error_unknown_to">Nu s-a putut găsi locația destinației. Vă rugăm să încercați altă locației.</string>
+  <string name="trip_error_unresolvable_address">Nu furnizată nu a putut fi găsită. Vă rugăm să introduceți altă adresă.</string>
+  <string name="trip_error_no_trips">Nu s-au putut găsi conexiuni :(</string>
+  <string name="trip_error_invalid_date">Perioada introdusă nu este suportată de către furnizorul de informații. Vă rugăm să introduceți o altă dată calendaristică.</string>
+  <string name="trip_error_service_down">Furnizorul de date nu este disponibil. :( \nVă rugăm să încercați iar mai târziu.</string>
+  <string name="trip_error_pte">Dacă doriți să raportați o eroare, vă rugăm să raportați direct la %1$s.</string>
+  <string name="trip_issue">S-ar putea să existe o problemă cu aceasta conexiune.</string>
+  <string name="trip_not_travelable">Imposibil sau anulat</string>
+  <string name="try_again">Încearcă din nou</string>
+  <!--This string shows the number of meters one has to walk. Please keep the translation short.-->
+  <string name="meter">%d m</string>
+  <plurals name="stops">
+    <item quantity="one">%d oprire</item>
+    <item quantity="few">%d opriri</item>
+    <item quantity="other">%d de opriri</item>
+  </plurals>
+  <!--This is the platform or position where a train will depart or arrive. Please keep it short as it will be shown after the station name.-->
+  <string name="platform">Peron %s</string>
+  <string name="system_default">Implicit al sistemului</string>
+  <string name="trip_share_date">Data: %s</string>
+  <string name="times_include_delays">(Atenție: timpurile afișate ar putea include întărzierile rapoartate)</string>
+  <string name="created_by">Creat de %s</string>
+  <string name="home">Acasă</string>
+  <string name="home_dialog_title">Setează locația Acasă</string>
+  <string name="widget_name_quickhome">Du-mă acasă</string>
+  <string name="work">Muncă</string>
+  <string name="work_hint">Setează locația Muncă</string>
+  <string name="widget_name_quickwork">Du-mă la muncă</string>
+  <string name="tap_to_set">Atinge pentru a seta</string>
+  <string name="widget_name_favorites">%1$s la %2$s</string>
+  <string name="widget_name_favorites_via">%1$s la %2$s (via %3$s)</string>
+  <string name="action_set_locations">Editează căutarea</string>
+  <string name="action_swap_locations">Caută călătorie de întoarcere</string>
+  <string name="action_change">Schimbă</string>
+  <string name="action_add_shortcut">Adaugă scurtătură pentru launcher</string>
+  <string name="location_gps">Folosește locația curentă</string>
+  <string name="warning_no_gps_fix">Momentan locația dumneavoastră nu a putut fi determinată.</string>
+  <string name="permission_denied_gps">Nu a-ți permis accesul la locație, prin urmare această funcționalitate nu va funcționa. Vă rugăm să oferiți această permisiune în setările aplicației.</string>
+  <string name="warning_gps_off">Locația este oprită. Vă rugăm să porniți această opțiune în setări.</string>
+  <string name="onboarding_location_title">Trage cu degetul în sus</string>
+  <string name="onboarding_location_message">Mai multe caracteristici sunt ascunse mai jos</string>
+  <string name="select_products">Selectați metoda de transport</string>
+  <string name="product_high_speed_train">Trenuri de mare viteză</string>
+  <string name="product_regional_train">Tren regional</string>
+  <string name="product_suburban_train">Tren suburban</string>
+  <string name="product_subway">Metrou</string>
+  <string name="product_tram">Tramvai</string>
+  <string name="product_bus">Autobuz</string>
+  <string name="product_ferry">Feribot</string>
+  <string name="product_cablecar">Telecabină</string>
+  <string name="product_on_demand">La comandă</string>
+  <!--ckChangeLog-->
+  <string name="changelog_full_title" tools:ignore="UnusedResources">Jurnal de schimbări</string>
+  <string name="changelog_title" tools:ignore="UnusedResources">Ce este nou</string>
+  <string name="changelog_show_full" tools:ignore="UnusedResources">Mai mult...</string>
+  <string name="np_continent_europe">Europa</string>
+  <string name="np_continent_africa">Africa</string>
+  <string name="np_continent_north_america">America de nord</string>
+  <string name="np_continent_central_america">America centrală</string>
+  <string name="np_continent_south_america">America de sud</string>
+  <string name="np_continent_asia">Asia</string>
+  <string name="np_continent_oceania">Oceania</string>
+  <string name="np_region_australia">Australia</string>
+  <string name="np_desc_australia">Melbourne, Sydney, Brisbane, Perth, Adelaide, Hobart, Launceston, Burnie</string>
+  <string name="np_desc_sydney">Australia, New South Wales, Sydney</string>
+  <string name="np_region_pt">Portugalia</string>
+  <string name="np_name_pt">Portugalia</string>
+  <string name="np_desc_pt">Lisabona</string>
+  <string name="np_desc_pt_networks">Autobuz, Tren, Funicular, Feribot, Metrou</string>
+  <string name="np_region_austria">Austria</string>
+  <string name="np_desc_ivb">Innsbruck</string>
+  <string name="np_desc_linz">Austria Superioară</string>
+  <string name="np_desc_oebb">Austria</string>
+  <string name="np_desc_stv">Styria, Graz, Marburg, Maribor</string>
+  <string name="np_desc_vor">Austria Inferioară, Burgenland, Viena</string>
+  <string name="np_desc_vvt">Tirol</string>
+  <string name="np_desc_wien">Viena</string>
+  <string name="np_region_belgium">Belgia</string>
+  <string name="np_desc_sncb">Transport public în Belgia</string>
+  <string name="np_name_br">Brazilia</string>
+  <string name="np_desc_br">São Paulo, Rio de Janeiro, Belo Horizonte și Porto Alegre</string>
+  <string name="np_name_br_floripa">Florianópolis</string>
+  <string name="np_desc_br_floripa">Multe trasee de autobuz</string>
+  <string name="np_region_canada">Canada</string>
+  <string name="np_name_ontario">Ontario</string>
+  <string name="np_desc_ontario">Ontario, Ottawa, Toronto, Mississauga, Hamilton, Regiunea Waterloo</string>
+  <string name="np_name_quebec">Quebec</string>
+  <string name="np_desc_quebec">Deux-Montagnes, Laval, L\'Assomption, Outaouais, Sud-Ouest, Quebec, Haut-Saint-Laurent, Lanaudière, La Presqu\'Île, Laurentides, Montreal, Les Moulins, Vallée du Richelieu, Chambly-Richelieu-Carignan, Roussillon, Sorel-Varennes, Le Richelain, Sherbrooke, Sainte-Julie</string>
+  <string name="np_name_britishcolumbia">British Columbia</string>
+  <string name="np_desc_britishcolumbia">Transport public în BC</string>
+  <string name="np_desc_britishcolumbia_networks">Translink (Metroul din Vancouver) și BC Transit (în restul BC)</string>
+  <string name="np_region_denmark">Danemarca</string>
+  <string name="np_desc_dsb">Danemarca, Copenhaga</string>
+  <string name="np_name_rt">Europa</string>
+  <string name="np_desc_rt">Numai trenuri de distanță mare</string>
+  <string name="np_desc_rt_networks">Alianța Railteam</string>
+  <string name="np_region_finland">Finlanda</string>
+  <string name="np_desc_fi">Helsinki, Turku, Tampere, Jyväskylä, Oulu</string>
+  <string name="np_region_france">Franța</string>
+  <string name="np_name_francenortheast">Franța de nord-est</string>
+  <string name="np_desc_francenortheast">Strasbourg, Metz, Lille, Nancy</string>
+  <string name="np_name_francenorthwest">Franța de nord-vest</string>
+  <string name="np_desc_francenorthwest">Brittany, Pays de la Loire, Centre, Lower Normandy, Upper Normandy</string>
+  <string name="np_name_frenchsoutheast">Franța de sud-est</string>
+  <string name="np_desc_frenchsoutheast">Provence-Alpes-Côte d\'Azur, Rhône-Alpes, Languedoc-Roussillon, Auvergne, Corsica, Lyon</string>
+  <string name="np_name_frenchsouthwest">Franța de sud-vet</string>
+  <string name="np_desc_frenchsouthwest">Poitou-Charentes, Limousin, Aquitaine, Midi-Pyrénées, Bordeaux, Toulouse</string>
+  <string name="np_name_paris">Paris</string>
+  <string name="np_desc_paris">Île-de-France, Franța, Paris</string>
+  <string name="np_region_gb">Marea Britanie</string>
+  <string name="np_desc_mersey">Regiunea Liverpool City</string>
+  <string name="np_desc_tlem">Marea Britanie, Birmingham, Derbyshire, Leicestershire, Rutland, Northamptonshire, Nottinghamshire, Lincolnshire, Berkshire, Buckinghamshire, East Sussex, Hampshire, Isle of Wight, Kent, Oxfordshire, Surrey, West Sussex, Essex, Hertfordshire, Bedfordshire, Cambridgeshire, Norfolk, Suffolk, Somerset, Gloucestershire, Wiltshire, Dorset, Devon, Cornwall, West Devon, Stowford, Eastleigh, Swindon, Gloucester, Plymouth, Torbay, Bournemouth, Poole</string>
+  <string name="np_desc_tlwm" tools:keep="@string/np_desc_tlwm">Birmingham</string>
+  <string name="np_region_germany">Germania</string>
+  <string name="np_desc_avv">Augsburg</string>
+  <string name="np_name_avvaachen">AVV</string>
+  <string name="np_desc_avvaachen">Aachen</string>
+  <string name="np_desc_bayern">Bavaria</string>
+  <string name="np_desc_bsvag">Braunschweig, Wolfsburg</string>
+  <string name="np_desc_bvg">Berlin</string>
+  <string name="np_desc_db">Cea mai mare parte a Germaniei</string>
+  <string name="np_desc_db2">Conexiuni pe distanțe mari în Europa</string>
+  <string name="np_desc_ding">Baden-Württemberg, Ulm, Neu-Ulm</string>
+  <string name="np_desc_gvh">Saxonia Inferioară, Hanover, Hamburg, Bremerhaven</string>
+  <string name="np_desc_hvv" tools:keep="@string/np_desc_hvv">Hamburg</string>
+  <string name="np_desc_invg">Ingolstadt</string>
+  <string name="np_desc_kvv">Baden-Württemberg, Karlsruhe</string>
+  <string name="np_desc_mvg">Märkischer Kreis, Lüdenscheid</string>
+  <string name="np_desc_mvv">Bavaria, Munchen</string>
+  <string name="np_desc_nasa">Saxony, Leipzig, Saxony-Anhalt, Magdeburg, Halle</string>
+  <string name="np_desc_nvbw">Baden-Württemberg, Konstanz, Basel, Basel-Stadt, Reutlingen, Rottweil, Tübingen, Sigmaringen</string>
+  <string name="np_desc_nvv">Hesse, Frankfurt pe Main, Kassel</string>
+  <string name="np_desc_rsag" tools:keep="@string/np_desc_rsag">Rostock</string>
+  <string name="np_name_sh">NAH.SH</string>
+  <string name="np_desc_sh">Schleswig-Holstein, Kiel, Flensburg, Lübeck</string>
+  <string name="np_desc_vbb">Brandenburg, Berlin</string>
+  <string name="np_desc_vbn" tools:keep="@string/np_desc_vbn">Saxonia Inferioară, Bremen, Bremerhaven, Oldenburg (Oldenburg), Osnabrück</string>
+  <string name="np_desc_vgn">Nuremberg, Fürth, Erlangen, Bayreuth, Bamberg, Schwabach</string>
+  <string name="np_name_vgs">saarVV</string>
+  <string name="np_desc_vgs">Saarland, Saarbrücken</string>
+  <string name="np_desc_vmv">Mecklenburg-Vorpommern, Schwerin</string>
+  <string name="np_desc_vrn">Baden-Württemberg, Rhineland-Palatinate, Mannheim, Mainz, Trier</string>
+  <string name="np_desc_vrr">Renania de Nord-Westfalia, Koln, Bonn, Essen, Dortmund, Düsseldorf, Münster, Paderborn, Höxter</string>
+  <string name="np_desc_vvm">Swabia, Mittelschwaben, Krumbach, Günzburg, Memmingen</string>
+  <string name="np_desc_vvo">Saxonia, Dresden</string>
+  <string name="np_desc_vvs">Baden-Württemberg, Stuttgart</string>
+  <string name="np_desc_vvv">Vogtland, Plauen</string>
+  <string name="np_desc_vmt">Mittelthüringen</string>
+  <string name="np_region_ireland">Irlanda</string>
+  <string name="np_desc_tfi">Irlanda, Dublin, Belfast</string>
+  <string name="np_region_israel" tools:keep="@string/np_region_israel">Israel</string>
+  <string name="np_desc_jet" tools:keep="@string/np_desc_jet">Israel, Ierusalim</string>
+  <string name="np_name_it">Italia</string>
+  <string name="np_desc_it">Roma, Milan, Turin, Veneția, Palermo, Trento</string>
+  <string name="np_region_liechtenstein">Liechtenstein</string>
+  <string name="np_name_vmobil">VVV</string>
+  <string name="np_desc_vmobil">Liechtenstein, Vorarlberg, Bregenz</string>
+  <string name="np_region_luxembourg">Luxemburg</string>
+  <string name="np_desc_lu">Luxemburg</string>
+  <string name="np_region_netherlands">Olanda</string>
+  <string name="np_desc_ns">Olanda, Amsterdam</string>
+  <string name="np_desc_negentwee">Toate metodele de transport în comun din Olanda</string>
+  <string name="np_name_nz">Noua Zeelandă</string>
+  <string name="np_desc_nz">Noua Zeelandă, Wellington, Auckland</string>
+  <string name="np_region_poland">Polonia</string>
+  <string name="np_name_spain">Spania</string>
+  <string name="np_desc_spain">Madrid, Barcelona, Țara Bascilor, Valencia, Alicante, Mallorca, Menorca, Tenerife, La Palma, Navarra</string>
+  <string name="np_name_hungary">Ungaria</string>
+  <string name="np_desc_hungary">Budapesta, Miskolc</string>
+  <string name="np_name_czechia">Cehia</string>
+  <string name="np_desc_czechia">Praga și altele</string>
+  <string name="np_region_sweden">Suedia</string>
+  <string name="np_desc_se">Suedia, Stockholm</string>
+  <string name="np_region_switzerland">Elveția</string>
+  <!--SBB is german/international, CFF is french and FFS is italian! So this IS translatable.-->
+  <string name="np_name_sbb" translatable="true">SBB</string>
+  <string name="np_desc_sbb">Elveția</string>
+  <string name="np_desc_vbl">Lucerne</string>
+  <string name="np_desc_zvv">Zurich</string>
+  <string name="np_region_uae">Emiratele Arabe Unite</string>
+  <string name="np_name_dub">Dubai</string>
+  <string name="np_desc_dub">Emiratele Arabe Unite, Dubai</string>
+  <string name="np_region_usa">Statele Unite ale Americii</string>
+  <string name="np_desc_rtachicago">Chicago</string>
+  <string name="np_desc_bart">San Francisco</string>
+  <string name="np_name_cmta">Capital Metro</string>
+  <string name="np_desc_cmta">Austin</string>
+  <string name="np_name_usny">Statele New York și New-Jersey</string>
+  <string name="np_name_california">California</string>
+  <string name="np_desc_california">Transport public în California (SUA)</string>
+  <string name="np_name_oregon">Oregon</string>
+  <string name="np_desc_oregon">Transport global în statul Oregon (SUA)</string>
+  <string name="np_name_costa_rica">Costa Rica</string>
+  <string name="np_name_ghana">Ghana</string>
+  <string name="np_desc_ghana">Accra</string>
+  <string name="np_name_nicaragua">Nicaragua</string>
+  <string name="np_desc_nicaragua">Autobuze urbane, rurale şi autocare furnizate de colaboratorii MapaNica.net şi OpenStreetMap</string>
+  <string name="maintainer">Dezvoltator</string>
+  <string name="contributors">Contributori</string>
+  <string name="translators">Traducători</string>
+  <string name="dutch">Olandeză</string>
+  <string name="french">Franceză</string>
+  <string name="german">Germană</string>
+  <string name="italian">Italiană</string>
+  <string name="portuguese_br">Portugheză (Brazilia)</string>
+  <string name="spanish">Spaniolă</string>
+  <string name="turkish">Turcă</string>
+  <string name="norwegian_bokmal">Norvegiană Bokmål</string>
+  <string name="basque">Bască</string>
+  <string name="english">Engleză</string>
+  <string name="catalan">Catalană</string>
+  <string name="polish">Poloneză</string>
+  <string name="tamil">Tamilă</string>
+  <string name="esperanto">Esperanto</string>
+  <string name="czech">Cehă</string>
+  <string name="hungarian">Maghiară</string>
+  <string name="japanese">Japoneză</string>
+  <string name="russian">Rusă</string>
+  <string name="greek">Greacă</string>
+  <string name="farsi">Persană</string>
+  <string name="taiwanese">Chineză (Taiwan)</string>
+  <string name="swedish">Suedeză</string>
+  <string name="ukrainian">Ucraineană</string>
+  <string name="danish">Daneză</string>
+</resources>
